@@ -42,7 +42,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/',
+          // routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -101,8 +101,17 @@ const config = {
             items: [
               {
                 label: 'ТКТ',
-                to: '/docs/bd',
+                to: '/docs/bd/intro',
               },
+                {
+                  label: 'СБ',
+                  to: '/docs/bot/intro',
+                },
+                {
+                  label: 'ТЧВ',
+                  to: '/docs/tfw/intro',
+                },
+
             ],
           },
           {
@@ -126,6 +135,8 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+    plugins: ['./plugins/plugin-wowhead'],
 };
 
 export default config;
