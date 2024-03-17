@@ -28,3 +28,9 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.about_text {
+  font-family: 'Jura', system-ui, sans-serif;
+  font-size: 25px;
+  color: #ffca18;
+}
