@@ -5,7 +5,6 @@ slug: /
 
 ## Силы Адептов возвращаются домой
 
-![Coming Home](/img/adepts_home.png)
 ![Coming Home](/img/adepts_home2.png)
 
 В первой фазе Катаклизма нас ожидают целых три рейдовых подземелья:
