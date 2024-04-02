@@ -29,6 +29,112 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+h1, h2, h3, h4, h5, h6, .text-break {
+  word-wrap: break-word;
+  word-break: break-word;
+  font-family: 'Gabriela', serif;
+
+}
+
+.about_text {
+  font-family: 'Jura', system-ui, sans-serif;
+  font-size: 25px;
+  color: #ffca18;
+}
+
+.debuf-disease {
+  color: #a5c769;
+}
+
+.debuf-magic {
+  color: #6fd9f3;
+}
+
+.debuf-curse {
+  color: #d606e0;
+}
+
+.dmg-nature {
+  color: green;
+}
+.dmg-ice {
+  color: #1651c7;
+}
+
+.heat {
+  color: #ff7f27;
+}
+
+.dmg-fire {
+  color: #fe5631;
+}
+
+.dmg-arcane {
+  color: pink;
+}
+
+.dmg-shadow {
+  color: DarkOrchid;
+}
+
+.dmg-phis {
+  color: brown;
+}
+
+.dmg-light {
+  color:#E6EFBB;
+}
+
+.elder_brightleaf {
+  color: #814CCC;
+}
+
+.elder_ironbranch {
+  color:#ff5a03;
+}
+
+.sunlight {
+  color:yellow;
+}
+
+.color-orange {
+  color: #ff5a03;
+}
+
+.color-lblue {
+  color: #9DC3FF;
+}
+
+.imgright {
+  float: right;
+  padding: 10px;
+}
+
+.be {
+  color: #b83dba;
+}
+
+.lore_text {
+  color:#fdeca6;
+  font-style: italic;
+}
+
+.ooze-color {
+    color: #35a354
+}
+
+.priest {
+    color: #a3f9ff
+}
+
+.hunter {
+    color: #aad372
+}
+
+.paladin {
+    color: #f48cba
+}
+
 .about_text {
   font-family: 'Jura', system-ui, sans-serif;
   font-size: 25px;
