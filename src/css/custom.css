@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, .text-break {
 }
 
 .dmg-arcane {
-  color: pink;
+  color: #f361f5;
 }
 
 .dmg-shadow {
@@ -139,4 +139,8 @@ h1, h2, h3, h4, h5, h6, .text-break {
   font-family: 'Jura', system-ui, sans-serif;
   font-size: 25px;
   color: #ffca18;
+}
+
+.red {
+    color: #ec1c24
 }
