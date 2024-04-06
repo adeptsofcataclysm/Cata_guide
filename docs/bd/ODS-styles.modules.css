@@ -1,0 +1,27 @@
+.Arcanotron{
+    color: #f361f5;
+}
+.Arcanotron[aria-selected='true'] {
+    border-bottom-color: #f361f5;
+}
+
+.Electron{
+    color: #6fd9f3;
+}
+.Electron[aria-selected='true'] {
+    border-bottom-color: #6fd9f3;
+}
+
+.Toxitron{
+    color: #4ae480;
+}
+.Toxitron[aria-selected='true'] {
+    border-bottom-color: #4ae480;
+}
+
+.Magmatron{
+    color: #fe5631;
+}
+.Magmatron[aria-selected='true'] {
+    border-bottom-color: #fe5631;
+}
