@@ -1,0 +1,27 @@
+.Shadow{
+    color: DarkOrchid;
+}
+.Shadow[aria-selected='true'] {
+    border-bottom-color: DarkOrchid;
+}
+
+.Red{
+    color: #ec1c24;
+}
+.Red[aria-selected='true'] {
+    border-bottom-color: #ec1c24;
+}
+
+.Blue{
+    color: #1651c7;
+}
+.Blue[aria-selected='true'] {
+    border-bottom-color: #1651c7;
+}
+
+.Green{
+    color: green;
+}
+.Green[aria-selected='true'] {
+    border-bottom-color: green;
+}
