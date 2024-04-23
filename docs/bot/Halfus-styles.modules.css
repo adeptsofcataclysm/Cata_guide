@@ -1,0 +1,34 @@
+.Nether{
+    color: #b83dba;
+}
+.Nether[aria-selected='true'] {
+    border-bottom-color: #b83dba;
+}
+
+.Slate{
+    color: #c3c3c3;
+}
+.Slate[aria-selected='true'] {
+    border-bottom-color: #c3c3c3;
+}
+
+.Storm{
+    color: #8cfffb;
+}
+.Storm[aria-selected='true'] {
+    border-bottom-color: #8cfffb;
+}
+
+.Emerald{
+    color: #c4ff0e;
+}
+.Emerald[aria-selected='true'] {
+    border-bottom-color: #c4ff0e;
+}
+
+.Time{
+    color: #fff200;
+}
+.Time[aria-selected='true'] {
+    border-bottom-color: #fff200;
+}
