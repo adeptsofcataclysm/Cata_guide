@@ -90,6 +90,18 @@ const config = {
           position: 'left',
           label: 'Трон Четырёх Ветров',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'fl',
+          position: 'left',
+          label: 'Огненные просторы'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'ds',
+          position: 'left',
+          label: 'Душа дракона'
+        },
         {to: 'adepts', label: 'О нас', position: 'left'},
         ],
       },
@@ -111,7 +123,14 @@ const config = {
                   label: 'ТЧВ',
                   to: '/docs/tfw/intro',
                 },
-
+                {
+                  label: 'ФЛ',
+                  to: '/docs/fl/intro'
+                },
+                {
+                  label: 'ДС',
+                  to: '/docs/ds/inro'
+                }
             ],
           },
           {
