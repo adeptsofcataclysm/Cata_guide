@@ -1,0 +1,13 @@
+.Teralion{
+    color: #00a8f3;
+}
+.Teralion[aria-selected='true'] {
+    border-bottom-color: #00a8f3;
+}
+
+.Valiona{
+    color: #f07df1;
+}
+.Valiona[aria-selected='true'] {
+    border-bottom-color: #f07df1;
+}
