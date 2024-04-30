@@ -129,7 +129,7 @@ const config = {
                 },
                 {
                   label: 'ДС',
-                  to: '/docs/ds/inro'
+                  to: '/docs/ds/intro'
                 }
             ],
           },
