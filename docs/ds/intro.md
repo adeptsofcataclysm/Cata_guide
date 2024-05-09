@@ -5,3 +5,5 @@ description: Пара вводных от аффтара
 ---
 
 ## Душа дракона
+
+![wip](/img/work-in-progress.png)
