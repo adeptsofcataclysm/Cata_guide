@@ -1,0 +1,27 @@
+.Ognis{
+    color: #ff8234;
+}
+.Ognis[aria-selected='true'] {
+    border-bottom-color: #ff8234;
+}
+
+.Akvarion{
+    color: #049ce0;
+}
+.Akvarion[aria-selected='true'] {
+    border-bottom-color: #049ce0;
+}
+
+.Aeron{
+    color: #8cfffb;
+}
+.Aeron[aria-selected='true'] {
+    border-bottom-color: #8cfffb;
+}
+
+.Terrastra{
+    color: #88001b;
+}
+.Terrastra[aria-selected='true'] {
+    border-bottom-color: #88001b;
+}
