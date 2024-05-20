@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Esho_dva_ebala](/img/bot/Chogal/Chogal.jpg)
+![Esho_dva_ebala](/img/bot/Chogal/Chogall.png)
 
 </div>
 

@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Drakonia_milfa](/img/bot/Sinestra/Sinestra.jpg)
+![Drakonia_milfa](/img/bot/Sinestra/Sinestra.png)
 
 </div>
 

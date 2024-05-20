@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Валиона и Тералион
 description: Описание и тактика на Валиона и Тералиона.
-image: /img/bot/VaT/Valiona_and_Theralion.jpg
+image: /img/bot/VaT/Valiona_and_Theralion.png
 ---
 
 import Tabs from '@theme/Tabs';
@@ -11,7 +11,7 @@ import styles from './VaT-styles.modules.css';
 
 <div className="text--center">
 
-![Sladkaia parochka](/img/bot/VaT/Valiona_and_Theralion.jpg)
+![Sladkaia parochka](/img/bot/VaT/Valiona_and_Theralion.png)
 
 </div>
 
