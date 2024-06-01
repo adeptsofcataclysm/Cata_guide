@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Atramedes](/img/bd/Atramedes/Atramedes.jpg)
+![Atramedes](/img/bd/Atramedes/Atramedes.png)
 
 </div>
 

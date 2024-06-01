@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Nefarian](/img/bd/Nefarian/Nefarian.jpg)
+![Nefarian](/img/bd/Nefarian/Nefarian.png)
 
 </div>
 

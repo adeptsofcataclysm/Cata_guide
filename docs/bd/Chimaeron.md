@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron.jpg)
+![Chimaeron](/img/bd/Chimaeron/Chimaeron.png)
 
 </div>
 
