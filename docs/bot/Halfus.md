@@ -678,6 +678,13 @@ import styles from './Halfus-styles.modules.css';
 </details>
 :::
 
+## Тактика
+
+<div className="text--center">
+
+![wip](/img/work-in-progress.png)
+</div>
+
 ## Патчи
 
 - **4.0.3a (23 ноября 2010)**: энкаунтер добавлен в игру.

@@ -14,5 +14,8 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
+<div className="text--center">
+
 ![wip](/img/work-in-progress.png)
+</div>
 

@@ -508,6 +508,13 @@ import TabItem from '@theme/TabItem';
 - На 2 фазе в <span className="red">героическом режиме</span> весь рейд получает бесконечную
   ДОТку [насмешка тьмы](https://www.wowhead.com/cata/ru/spell=91307), которая дамажит на 2000 каждую секунду.
 
+## Тактика
+
+<div className="text--center">
+
+![wip](/img/work-in-progress.png)
+</div>
+
 ## Патчи
 
 - **4.0.3a (23 ноября 2010)**: энкаунтер добавлен в игру.
