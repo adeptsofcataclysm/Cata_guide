@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 title: Нефариан
 description: Описание и тактика на Нефариана.
 image: /img/bd/Nefarian/Nefarian.jpg

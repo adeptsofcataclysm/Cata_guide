@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: Химерон
 description: Описание и тактика на Химерона.
 image: /img/bd/Chimaeron/Chimaeron.jpg

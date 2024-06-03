@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Малориак
 description: Описание и тактика Малориака.
 image: /img/bd/Maloriak/Maloriak2.jpg

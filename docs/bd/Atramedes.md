@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: Атрамед
 description: Описание и тактика на Атрамеда.
 image: /img/bd/Atramedes/Atramedes.jpg
