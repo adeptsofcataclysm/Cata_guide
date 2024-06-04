@@ -199,7 +199,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_edkaia_sliz.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_edkaia_sliz.gif)
 
 </div>
 
@@ -208,7 +208,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_krovoprolitie.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_krovoprolitie.gif)
 
 </div>
 
@@ -250,7 +250,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_note_2.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_note_2.gif)
 
 </div>
 
@@ -264,7 +264,7 @@ import TabItem from '@theme/TabItem';
 <b><i>На данной гифке никто не умер, хилы успевают поднимать лоу-ХПшных игроков до
 следующих [залпов](https://www.wowhead.com/cata/ru/spell=82935)</i></b>
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_note_3.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_note_3.gif)
 
 </div>
 
@@ -276,7 +276,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_note_4.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_note_4.gif)
 
 </div>
 
@@ -391,7 +391,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_perehodka_sbegaemsa.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_perehodka_sbegaemsa.gif)
 
 </div>
 
@@ -401,7 +401,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_perehodka_heal.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_perehodka_heal.gif)
 
 </div>
 
@@ -412,7 +412,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_perehodka_razpegaemsa.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_perehodka_razpegaemsa.gif)
 
 </div>
 
@@ -421,7 +421,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_konec_perehodki_frames.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_konec_perehodki_frames.gif)
 
 </div>
 
@@ -475,7 +475,7 @@ import TabItem from '@theme/TabItem';
 
 <summary>***лекари:***</summary>
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_monah.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_monah.gif)
 
 </details>
 :::
