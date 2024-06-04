@@ -378,7 +378,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Chimaeron/Chimaeron_note_4.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/Chimaeron/Chimaeron_note_4.gif)
 
 </div>
 
