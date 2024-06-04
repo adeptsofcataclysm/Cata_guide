@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Fall5.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Fall5.gif)
 </div>
 
 </TabItem>
@@ -51,7 +51,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Fall4.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Fall4.gif)
 </div>
 
 </TabItem>
@@ -59,7 +59,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Fall3.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Fall3.gif)
 </div>
 
 </TabItem>
@@ -67,7 +67,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Fall2.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Fall2.gif)
 </div>
 
 </TabItem>
@@ -75,7 +75,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Fall1.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Fall1.gif)
 </div>
 
 </TabItem>
@@ -83,7 +83,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Fall0.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Fall0.gif)
 </div>
 
 </TabItem>
@@ -95,7 +95,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Step1.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Step1.gif)
 </div>
 
 :::caution
@@ -109,21 +109,21 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Step2.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Step2.gif)
 </div>
 
 Пока лифт едет, вы должны подойти к краю движущейся платформы.
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Step3.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Step3.gif)
 </div>
 
 Как только лифт приехал вниз, то СРАЗУ ЖЕ идите вперёд (можно начать движение чуть раньше или чуть позже).
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Step4.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Step4.gif)
 </div>
 
 :::danger
@@ -141,7 +141,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Gratz1.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Gratz1.gif)
 </div>
 
 </TabItem>
@@ -149,7 +149,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Gratz2.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Gratz2.gif)
 </div>
 
 </TabItem>
@@ -157,7 +157,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Gratz3.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Gratz3.gif)
 </div>
 
 </TabItem>
@@ -165,7 +165,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Gratz4.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Gratz4.gif)
 </div>
 
 </TabItem>
@@ -173,7 +173,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/gratz5.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/gratz5.gif)
 </div>
 
 </TabItem>
@@ -181,7 +181,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Gratz6.gif)
+![Chimaeron](https://www.wowhcb.ru/adepts/bd/elevator/Gratz6.gif)
 </div>
 
 </TabItem>
