@@ -173,7 +173,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Gratz5.gif)
+![Chimaeron](/img/bd/gratz5.gif)
 </div>
 
 </TabItem>
