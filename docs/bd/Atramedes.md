@@ -163,7 +163,7 @@ import TabItem from '@theme/TabItem';
 Удар в [щит](https://www.wowhead.com/cata/ru/npc=41445) = обнуление уровня звука = близовский индикатор-круг пустеет
 </i></b>
 
-![Arenka](/img/bd/Atramedes/Atramedes_indicator_animation.gif)
+![Arenka](https://www.wowhcb.ru/adepts/bd/Atramedes/Atramedes_indicator_animation.gif)
 
 </div>
 
@@ -226,7 +226,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Diski](/img/bd/Atramedes/Atramedes_sonic_pulse.gif)
+![Diski](https://www.wowhcb.ru/adepts/bd/Atramedes/Atramedes_sonic_pulse.gif)
 
 </div>
 
@@ -238,7 +238,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Diski](/img/bd/Atramedes/Atramedes_modulation.gif)
+![Diski](https://www.wowhcb.ru/adepts/bd/Atramedes/Atramedes_modulation.gif)
 
 </div>
 
@@ -254,7 +254,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Diski](/img/bd/Atramedes/Atramedes_dihanie_earth.gif)
+![Diski](https://www.wowhcb.ru/adepts/bd/Atramedes/Atramedes_dihanie_earth.gif)
 
 </div>
 
@@ -307,7 +307,7 @@ ____________________________________________
 
 <div className="text--center">
 
-![Diski](/img/bd/Atramedes/Atramedes_sonic_bomb.gif)
+![Diski](https://www.wowhcb.ru/adepts/bd/Atramedes/Atramedes_sonic_bomb.gif)
 
 </div>
 
@@ -351,7 +351,7 @@ ____________________________________________
 
 <div className="text--center">
 
-![Diski](/img/bd/Atramedes/Atramedes_fireballs.gif)
+![Diski](https://www.wowhcb.ru/adepts/bd/Atramedes/Atramedes_fireballs.gif)
 
 </div>
 
@@ -376,7 +376,7 @@ ____________________________________________
 
 <div className="text--center">
 
-![Diski](/img/bd/Atramedes/Atramedes_laser.gif)
+![Diski](https://www.wowhcb.ru/adepts/bd/Atramedes/Atramedes_laser.gif)
 
 </div>
 
