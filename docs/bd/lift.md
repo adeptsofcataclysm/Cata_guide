@@ -123,7 +123,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chimaeron](/img/bd/Step3.gif)
+![Chimaeron](/img/bd/Step4.gif)
 </div>
 
 :::danger
