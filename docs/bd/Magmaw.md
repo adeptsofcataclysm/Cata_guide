@@ -146,7 +146,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Magmaw](/img/bd/Magmaw/Magmaw_lava_shari.gif)
+![Magmaw](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_lava_shari.gif)
 
 </div>
 
@@ -185,7 +185,7 @@ import TabItem from '@theme/TabItem';
 
 </i></b>
 
-![Magmaw](/img/bd/Magmaw/Magmaw_pilar.gif)
+![Magmaw](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_pilar.gif)
 
 </div>
 
@@ -214,7 +214,7 @@ import TabItem from '@theme/TabItem';
 происходит захват МТ.
 </i></b>
 
-![Huyak!](/img/bd/Magmaw/Maпьaw_mangle_TankPOV.gif)
+![Huyak!](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_mangle_TankPOV.gif)
 
 </div>
 
@@ -231,7 +231,7 @@ import TabItem from '@theme/TabItem';
 Дымка на половину арены и последующее [могучее сокрушение](https://www.wowhead.com/cata/ru/spell=88287)
 </i></b>
 
-![Huyak!](/img/bd/Magmaw/Magmaw_massive-crash.gif)
+![Huyak!](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_massive-crash.gif)
 
 </div>
 
@@ -255,7 +255,7 @@ import TabItem from '@theme/TabItem';
 Седлание босса и [броски крюков](https://www.wowhead.com/cata/ru/spell=77917).
 </i></b>
 
-![syky_na_col](/img/bd/Magmaw/Magmaw_syky_na_col.gif)
+![syky_na_col](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_syky_na_col.gif)
 
 </div>
 
@@ -278,7 +278,7 @@ import TabItem from '@theme/TabItem';
 
 </i></b>
 
-![Svoboda_paladinu](/img/bd/Magmaw/Maпьaw_mangle_TankPOV_end.gif)
+![Svoboda_paladinu](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_mangle_TankPOV_end.gif)
 
 </div>
 
@@ -340,7 +340,7 @@ import TabItem from '@theme/TabItem';
 
 </i></b>
 
-![Addi skeleti](/img/bd/Magmaw/Magmaw_blazing_inferno.gif)
+![Addi skeleti](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_blazing_inferno.gif)
 
 </div>
 
@@ -407,7 +407,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Shadowperegarchik](/img/bd/Magmaw/Magmaw_shadow_peregar.gif)
+![Shadowperegarchik](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_shadow_peregar.gif)
 
 </div>
 
@@ -500,7 +500,7 @@ x2 урон). А когда босс очухается с
 Хант на последок оставил [ледяную ловушку](https://www.wowhead.com/cata/ru/spell=13809)
 </i></b>
 
-![Magmaw](/img/bd/Magmaw/Magmaw_pilar.gif)
+![Magmaw](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_pilar.gif)
 
 </div>
 
@@ -549,7 +549,7 @@ x2 урон). А когда босс очухается с
 
 <div className="text--center">
 
-![Addi skeleti](/img/bd/Magmaw/Magmaw_blazing_inferno.gif)
+![Addi skeleti](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_blazing_inferno.gif)
 
 </div>
 
@@ -587,7 +587,7 @@ x2 урон). А когда босс очухается с
 
 <div className="text--center">
 
-![Huyak!](/img/bd/Magmaw/Maпьaw_mangle_TankPOV.gif)
+![Huyak!](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_mangle_TankPOV.gif)
 
 </div>
 
@@ -601,7 +601,7 @@ x2 урон). А когда босс очухается с
 Дымка на половину арены и последующее [могучее сокрушение](https://www.wowhead.com/cata/ru/spell=88287)
 </i></b>
 
-![Huyak!](/img/bd/Magmaw/Magmaw_massive-crash.gif)
+![Huyak!](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_massive-crash.gif)
 
 </div>
 
@@ -616,7 +616,7 @@ x2 урон). А когда босс очухается с
 Седлание босса и [броски крюков](https://www.wowhead.com/cata/ru/spell=77917).
 </i></b>
 
-![syky_na_col](/img/bd/Magmaw/Magmaw_syky_na_col.gif)
+![syky_na_col](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_syky_na_col.gif)
 
 </div>
 
@@ -640,7 +640,7 @@ x2 урон). А когда босс очухается с
 От лица МТ.
 </i></b>
 
-![Svoboda_paladinu](/img/bd/Magmaw/Maпьaw_mangle_TankPOV_end.gif)
+![Svoboda_paladinu](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_mangle_TankPOV_end.gif)
 
 </div>
 
@@ -700,7 +700,7 @@ x2 урон). А когда босс очухается с
 
 <div className="text--center">
 
-![Shadowperegarchik](/img/bd/Magmaw/Magmaw_shadow_peregar.gif)
+![Shadowperegarchik](https://www.wowhcb.ru/adepts/bd/Magmaw/Magmaw_shadow_peregar.gif)
 
 </div>
 
