@@ -14,8 +14,12 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
-<div className="text--center">
+<div className="text--center lore_text">
 
-![wip](/img/work-in-progress.png)
+<b>
+
+
+
+</b>
 </div>
 
