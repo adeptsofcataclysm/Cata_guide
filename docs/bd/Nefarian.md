@@ -808,12 +808,6 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 </Tabs>
 
-## Тактика
-
-<div className="text--center">
-
-![wip](/img/work-in-progress.png)
-</div>
 
 ## Патчи
 

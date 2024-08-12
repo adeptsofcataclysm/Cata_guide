@@ -887,12 +887,6 @@ _Выжить любой ценой!_
 
 :::
 
-## Тактика 
-
-<div className="text--center">
-
-![wip](/img/work-in-progress.png)
-</div>
 
 ## Патчи
 
