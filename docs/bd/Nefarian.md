@@ -685,8 +685,8 @@ import TabItem from '@theme/TabItem';
   игрокам в конусе перед собой 54 000 <span className="dmg-shadow">тёмного</span> урона раз в 0.5 сек. в течении 1.5
   сек. (т.е. всего 3 тика). Если под дыхание попали трупы [костяных воинов](https://www.wowhead.com/cata/ru/npc=41918),
   то они оживают. Если под дыхание попали живые [костяные воины](https://www.wowhead.com/cata/ru/npc=41918), то их
-  <b><span className="dmg-shadow">энергия</span></b> станет максимальной.
-- [Удар хвостом](https://www.wowhead.com/cata/ru/spell=77827) **(мгновенное)**: дракон ударяет хвостом, наносит всем
+  <b><span className="dmg-shadow">энергия</span></b> ресается до максимальной.
+- [Удар хвостом](https://www.wowhead.com/cata/ru/spell=77827) **(мгновенное)**: дракон ударяет хвостом, нанося всем
   игрокам сзади себя 70 000 <span className="dmg-phis">физического</span> урона и оглушая на 2 сек.
 
 Добавляется третья абилка:
@@ -699,7 +699,13 @@ import TabItem from '@theme/TabItem';
   огненного</span> урона. Оживляет трупы [костяных воинов](https://www.wowhead.com/cata/ru/npc=41918).
   Если [живой костяной воин](https://www.wowhead.com/cata/ru/npc=41918) зашёл в данное пламя, то
   его <b><span className="dmg-shadow">тёмно</span></b>. Нефариан
-  применяет [вспышку](https://www.wowhead.com/cata/ru/spell=81031) каждые 5 сек.
+  применяет [вспышки](https://www.wowhead.com/cata/ru/spell=81031) по таким таймингам:
+  - Спустя 5 сек. после начала 3-й фазы. летит первая [вспышка](https://www.wowhead.com/cata/ru/spell=81031).
+  - Вторая [вспышка](https://www.wowhead.com/cata/ru/spell=81031) прилетит через 30 сек. после первой.
+  - Третья [вспышка](https://www.wowhead.com/cata/ru/spell=81031) прилетит через 25 сек. после второй.
+  - Четвертая [вспышка](https://www.wowhead.com/cata/ru/spell=81031) прилетит через 20 сек. после третьей.
+  - Пятая [вспышка](https://www.wowhead.com/cata/ru/spell=81031) прилетит через 15 сек. после четвёртой.
+  - Интервал между следующими [вспышками](https://www.wowhead.com/cata/ru/spell=81031) делается 10 сек. и не меняется до конца боя.
 
 Трупы [оживших костяных воинов](https://www.wowhead.com/cata/ru/npc=41918) никуда не пропали, они всё это время лежали
 на своих местах. Если на 1-й фазе эти адды умирают и про них можно забыть, то на 3-й они будут постоянно ресаться (или
