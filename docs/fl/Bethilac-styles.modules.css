@@ -1,0 +1,27 @@
+.Big{
+    color: #88001b;
+}
+.Big[aria-selected='true'] {
+    border-bottom-color: #88001b;
+}
+
+.Normal{
+           color: #ff7f27;
+}
+.Normal[aria-selected='true'] {
+     border-bottom-color: #ff7f27;
+}
+
+.Small{
+           color: #ffca18;
+}
+.Small[aria-selected='true'] {
+     border-bottom-color: #ffca18;
+}
+
+.Bomb{
+           color: #f64a51;
+}
+.Bomb[aria-selected='true'] {
+     border-bottom-color: #f64a51;
+}
