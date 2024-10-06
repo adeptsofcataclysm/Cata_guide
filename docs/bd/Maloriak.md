@@ -580,7 +580,7 @@ import styles from './Maloriak-styles.modules.css';
 
 </i></b>
 
-![Maloriak](/img/bd/Maloriak/Maloriak_acid.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_acid.gif)
 
 </div>
 
