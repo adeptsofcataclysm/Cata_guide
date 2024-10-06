@@ -18,7 +18,7 @@ import styles from './Maloriak-styles.modules.css';
 <div className="text--center lore_text">
 
 <b>
-Мэлори был юным талантливым алхимиком, пока Нефариан не похитил его для своих экспериментов. Результат скрещивания молодого учёного с трупом драконида стал Малориак. К сожалению (или к счастью), разум алхимика деградировал, и уродливое создание день за днём создаёт всё более и более ни на что нигодных живых кусков плоти, стараясь угодть своему "хозяину".
+Мэлори был юным талантливым алхимиком, пока Нефариан не похитил его для своих экспериментов. Результат скрещивания молодого учёного с трупом драконида стал Малориак. К сожалению (или к счастью), разум алхимика деградировал, и уродливое создание день за днём создаёт всё более и более ни на что не годных живых кусков плоти, стараясь угодить своему "хозяину".
 </b>
 </div>
 
@@ -29,9 +29,9 @@ import styles from './Maloriak-styles.modules.css';
 **Первая фаза состоит из 3-х подфаз в нормальном режиме и 4-х в <span className="red">героическом</span>**
 которые чередуются по таймеру. Они будут зацикливаться, пока ХП босса не опустится до 25% здоровья. Подфазы следующие:
 
-- <b><span className="dmg-shadow">Тёмная</span></b>: (90 с.) это подфаза <span className="red">героического</span>
+- <b><span className="dmg-shadow">Тёмная</span></b>: (90 с.) эта подфаза <span className="red">героического</span>
   режима (в нормале тёмной подфазы не существует). Появляется Нефариан и заряжает котёл Малориака тьмой. Босс выпивает
-  данное вариво, и спавнит несколько аддов, [губительных нечистот](https://www.wowhead.com/cata/ru/npc=49811). **Аддов
+  данное варево, и спавнит несколько аддов, [губительных нечистот](https://www.wowhead.com/cata/ru/npc=49811). **Аддов
   нужно
   успеть убить за 90 с.** Данные адды постоянно срут в рейд
   войд-зонами [тёмными жижами](https://www.wowhead.com/cata/ru/spell=92930). **ОТ их водит по комнате, пока остальные ДД
@@ -42,7 +42,7 @@ import styles from './Maloriak-styles.modules.css';
 - **2 и 3-я подфазы: синяя и красная**: (по 45 сек. каждая) Порядок случайный и цвета в каждом цикле не повторяются. На
   этих фазах
   рейд бьёт босса и выживает от его способностей. Для рейда стоит ещё одна важная задача на этих двух подфазах:
-  освобождать аддов. Над потолками арены висят куча красных колб с аддами (аберациями). **Малориак
+  освобождать аддов. Над потолками арены висят куча красных колб с аддами (аберрациями). **Малориак
   будет читать [освобождение аберраций](https://www.wowhead.com/cata/ru/spell=77569). Данный каст кикается. Нужно давать
   ему освободить
   несколько штук, а остальные касты кикать. ОТ их собирает и кайтит.** Также на этих двух подфазах **ОБЯЗАТЕЛЬНО нужно
@@ -68,7 +68,7 @@ import styles from './Maloriak-styles.modules.css';
   дебафф [изнуряющая слизь](https://www.wowhead.com/cata/ru/spell=77615) на 15 с., под которым получаемый урон
   увеличивается на
   100%. Отличное время для
-  залива абберации, которых кайтил ОТ две предыдущие подфазы.
+  залива аберрации, которых кайтил ОТ две предыдущие подфазы.
 
 И так 1-я фаза повторяется заново, с подфазами. Сначала <b><span className="dmg-shadow">тёмная</span></b> (если есть),
 затем 2
@@ -99,7 +99,7 @@ import styles from './Maloriak-styles.modules.css';
 Абберации бафают друг друга [катализатором роста](https://www.wowhead.com/cata/ru/spell=77987), каждый адд бафает
 остальных.
 Данный эффект уменьшает входящий урон по аддам. А на зелёной фазе данный бафф спадает с аббераций (типо зелёная жижа
-забрызгала всю комнату и также подействовала на абберации).
+забрызгала всю комнату и также подействовала на аберрации).
 </details>
 
 <details>
@@ -136,7 +136,7 @@ import styles from './Maloriak-styles.modules.css';
 
 ## Арена энкаунтера
 
-Большая комната, Малориак стоит у своего котла. Во время боя адды аберрации (и главные объекты) будут появлятся в нижних
+Большая комната, Малориак стоит у своего котла. Во время боя адды аберрации (и главные объекты) будут появляться в нижних
 углах комнаты.
 
 <div className="text--center">
@@ -177,7 +177,7 @@ import styles from './Maloriak-styles.modules.css';
 с потолка на рейд.
 </i></b>
 
-![Maloriak](/img/bd/Maloriak/Maloriak_molnii.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_molnii.gif)
 
 </div>
 
@@ -193,11 +193,8 @@ import styles from './Maloriak-styles.modules.css';
 <TabItem value="Shadow" label="Тёмная" attributes={{className: styles.Shadow}}>
 
 <div className="text--center">
-<b><i>
-
-Длится 90 секунд
-<br/> <span className="red">Появляется только в героическом режиме</span>
-</i></b>
+***Длится 90 секунд<br/> 
+<span className="red">Появляется только в героическом режиме</span>***
 </div>
 
 К котлу телепортируется сам Нефариан и наполняет его своей тёмной магией (ну хотя бы не светлой). Малориак сильно
@@ -205,7 +202,7 @@ import styles from './Maloriak-styles.modules.css';
 хозяина, и выпивает тёмное варево. Босс получает бафф:
 
 - [Наделение тьмой](https://www.wowhead.com/cata/ru/spell=92716) **(мгновенное | бафф на себя)**: наделяет Малориака
-  тёмными способностями. Дарует невосприичивость к провокациям. Длится 90 с.
+  тёмными способностями. Дарует невосприимчивость к провокациям. Длится 90 с.
 
 "Коктейль" от Нефариана настолько мерзкий, что Малориак идёт в центр арены и начинает блевать. Блевота превращается в
 аддов, [губительных нечистот](https://www.wowhead.com/cata/ru/npc=49811).
@@ -218,8 +215,8 @@ import styles from './Maloriak-styles.modules.css';
 - [Губительные нечистоты](https://www.wowhead.com/cata/ru/npc=49811) **(6 600 000 здоровья)**: можно таунтить, имеет
   обычный агролист. Всего
   спавнится 5 штук. Постоянно плюют в рейд [тёмную жижу](https://www.wowhead.com/cata/ru/spell=92930).
-    - [Тёмная жижа](https://www.wowhead.com/cata/ru/spell=92930) **(мгновенное)**: адд в место случайного игрока
-      запускает
+    - [Тёмная жижа](https://www.wowhead.com/cata/ru/spell=92930) **(мгновенное)**: адд в место, где стоит какой-либо 
+        игрок, запускает 
       тёмный плевок. При попадании на землю образуется лужа радиусом 3 ярда. В ней игроку наносится 15 000 урона
       от <span className="dmg-shadow">тьмы</span> раз в 0.5 с. Лужа существует 30 с.
 
@@ -231,22 +228,18 @@ import styles from './Maloriak-styles.modules.css';
 
 <div className="text--center">
 
-<b><i>"Переходка" на тёмную фазу. Видно, как босс сначала подходит к котлу, пьёт, возвращается и его начинает
-тошнить.</i></b>
+***"Переходка" на тёмную фазу. Видно, как босс сначала подходит к котлу, пьёт, возвращается и его начинает
+тошнить.***
 
-![Maloriak](/img/bd/Maloriak/Maloriak_blebi.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_blebi.gif)
 
 </div>
 
 <div className="text--center">
 
-<b><i>
+***Очень много луж [тёмных жиж](https://www.wowhead.com/cata/ru/spell=92930). Да, их будет так много.***
 
-Очень много луж [тёмных жиж](https://www.wowhead.com/cata/ru/spell=92930). Да, их будет так много.
-
-</i></b>
-
-![Maloriak](/img/bd/Maloriak/Maloriak_zizi.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_zizi.gif)
 
 </div>
 
@@ -264,7 +257,7 @@ import styles from './Maloriak-styles.modules.css';
 
 <div className="text--center">
 
-![Maloriak](/img/bd/Maloriak/Maloriak_dihanie.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_dihanie.gif)
 
 </div>
 
@@ -272,17 +265,16 @@ import styles from './Maloriak-styles.modules.css';
 Таким образом на тёмной подфазе МТ почти постоянно находится
 под [дыханием](https://www.wowhead.com/cata/ru/spell=92754). Прикол в том, что пока оно накладывает
 дебафф [поглощающий мрак](https://www.wowhead.com/cata/ru/spell=92787), из-за которого МТ не получает
-исцеления вообще. Каст [дыхания](https://www.wowhead.com/cata/ru/spell=92754) 8 сек.
-с., [дебафф](https://www.wowhead.com/cata/ru/spell=92787) накладывается на 1.5 сек., а Малориак дышит по КД. Так что на
-данной фазе хилам нужно прохилить МТ за 1.5 с., потому что следующие 9.5 сек. в него исцеления поступить не может
-никакого.
+исцеления вообще. Каст [дыхания](https://www.wowhead.com/cata/ru/spell=92754) 8 сек., [дебафф](https://www.wowhead.com/cata/ru/spell=92787) накладывается на 
+1.5 сек., а Малориак дышит по КД. Так что на данной фазе лекарям нужно вылечить МТ за 1.5 с., потому что 
+следующие 9.5 сек. никакое исцеление поступить в него не сможет.
 :::
 
 </TabItem>
 <TabItem value="Red" label="Красная" attributes={{className: styles.Red}}>
 
 <div className="text--center">
-<b><i>Длится 40 секунд</i></b>
+***Длится 40 секунд***
 </div>
 
 Малориак подходит к котлу, кидает красную колбу, и выпивает получившееся варево. На 40 с. Малориак получает способности,
@@ -290,16 +282,15 @@ import styles from './Maloriak-styles.modules.css';
 
 - [Пожирающий огонь](https://www.wowhead.com/cata/ru/spell=77786) **(мгновенное | дебафф на игрока)**: Малориак
   накладывает на случайного игрока ДОТку, которая наносит 13 500 <span className="dmg-fire">огненного</span> урона раз в
-  1 сек. в течении 10 сек. При полученнии магического урона из другого источника усиливает урон от тиков данной ДОТки на
+  1 сек. в течении 10 сек. При получении магического урона из другого источника усиливает урон от тиков данной ДОТки на
   50%. Босс применяет данную способность каждые 10-15 сек.
 
 :::info
-ДОТка [пожирающий огонь](https://www.wowhead.com/cata/ru/spell=77786) не разгоняет саму себя (а вот не сбитый вовремя
-каст [чародейской бури](https://www.wowhead.com/cata/ru/spell=77908) увеличит урон ДОТки). Также
+ДОТка [пожирающий огонь](https://www.wowhead.com/cata/ru/spell=77786) не разгоняет саму себя. А вот не сбитый вовремя
+каст [чародейской бури](https://www.wowhead.com/cata/ru/spell=77908) увеличит урон ДОТки. Также
 увеличение урона на 50% (если что-то извне продамажит) не обновляет
 длительность [пожирающего огня](https://www.wowhead.com/cata/ru/spell=77786). ДОТка провисит ровно 10 сек., пусть она
-хоть
-5 раз апнется.
+хоть 5 раз апнется.
 :::
 
 - [Обжигающий поток](https://www.wowhead.com/cata/ru/spell=77679) **(мгновенное)**: очень мощное дыхание. Наносит всем
@@ -308,7 +299,7 @@ import styles from './Maloriak-styles.modules.css';
 
 <div className="text--center">
 
-![Maloriak](/img/bd/Maloriak/Maloriak_ognennoe_dihanie.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_ognennoe_dihanie.gif)
 
 </div>
 
@@ -321,7 +312,7 @@ import styles from './Maloriak-styles.modules.css';
 <TabItem value="Blue" label="Синяя" attributes={{className: styles.Blue}}>
 
 <div className="text--center">
-<b><i>Длится 40 секунд</i></b>
+***Длится 40 секунд***
 </div>
 
 Малориак подходит к котлу, кидает синюю колбу, и выпивает получившееся варево. На 40 сек. Малориак получает способности,
@@ -342,13 +333,13 @@ import styles from './Maloriak-styles.modules.css';
 Глыбы от [ледяной вспышки](https://www.wowhead.com/cata/ru/spell=77699) являются крайне опасными способностями. Когда
 глыба кидается на фулового игрока, то она ему оставляет 10-20% здоровья. Если какой-то ДД тут же разобьёт эту глыбу,
 то заледеневшая жертва тут же умрёт, получив урон от АОЕ осколков. Поэтому ни в коем случае нельзя быстро разбивать
-глыбы! Хилам нужно прохилить игроков, которые в них попали, и только потом назначенному РДД разбивать глыбы.
+глыбы! Лекарям нужно вылечить игроков, которые в них попали, и только потом назначенному РДД разбивать глыбы.
 
 :::
 
 <div className="text--center">
 
-![Maloriak](/img/bd/Maloriak/Maloriak_gliba.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_gliba.gif)
 
 </div>
 
@@ -361,7 +352,7 @@ import styles from './Maloriak-styles.modules.css';
 <TabItem value="Green" label="Зелёная" attributes={{className: styles.Green}}>
 
 <div className="text--center">
-<b><i>Длится 40 секунд</i></b>
+***Длится 40 секунд***
 </div>
 
 Малориак подходит к котлу, кидает зелёную колбу, и... Варево взрывается! Малориака и игроков отбрасывает от котла.
@@ -375,17 +366,17 @@ import styles from './Maloriak-styles.modules.css';
 
 <div className="text--center">
 
-![Maloriak](/img/bd/Maloriak/Maloriak_varim_sup.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_varim_sup.gif)
 
 </div>
 
-Первые 15 сек. рейд, босс и адды будут получать X2 урона
+Первые 15 секунд рейд, босс и адды будут получать X2 урона
 из-за [изнуряющей слизи](https://www.wowhead.com/cata/ru/spell=77615). А что же остальные 25 секунд. На самом деле
 ничего, в это время никаких особенных механик не произойдёт.
 
 :::info
 Про [аберрации](https://www.wowhead.com/cata/ru/npc=41440) и
-бафф [катализатор роста](https://www.wowhead.com/cata/ru/spell=77987) смотреть в "1 Фаза: механика аббераций".
+бафф [катализатор роста](https://www.wowhead.com/cata/ru/spell=77987) смотреть в "1 Фаза: механика аберраций".
 :::
 
 </TabItem>
@@ -404,7 +395,7 @@ import styles from './Maloriak-styles.modules.css';
 
 <div className="text--center">
 
-![Maloriak](/img/bd/Maloriak/Maloriak_free_aberations.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_free_aberations.gif)
 
 </div>
 
@@ -480,7 +471,7 @@ import styles from './Maloriak-styles.modules.css';
 тёмной</span></b> подфазы.
 :::
 
-Если про [аберрации](https://www.wowhead.com/cata/ru/npc=41440) было сказаном в "Фаза 1: механика аддов-аберраций"
+Если про [аберрации](https://www.wowhead.com/cata/ru/npc=41440) было сказаном в "Фаза 1: механика аддов-аберраций",
 то [объекты](https://www.wowhead.com/cata/ru/npc=41841) появляются только в начале 2-й фазы.
 
 <div className="imgright">
@@ -506,7 +497,7 @@ import styles from './Maloriak-styles.modules.css';
 
 <summary>Замечания по поводу [главных объектов](https://www.wowhead.com/cata/ru/npc=41841) и их способностей.</summary>
 
-- Аддов танчит ОТ, следовательно на него
+- Аддов танчит ОТ, следовательно, на него
   накладывается [сосредоточение внимания](https://www.wowhead.com/cata/ru/spell=78617). Если ОТ умрёт, то адд спустя
   некоторое время применит [сосредоточение](https://www.wowhead.com/cata/ru/spell=78617) на следующую цель.
 - [Кровопускание](https://www.wowhead.com/cata/ru/spell=78034) применяется чаще чем 18 сек. Также при настакивании
@@ -525,7 +516,7 @@ import styles from './Maloriak-styles.modules.css';
 
 </i></b>
 
-![Maloriak](/img/bd/Maloriak/Maloriak_release_all.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_release_all.gif)
 
 </div>
 
@@ -542,7 +533,7 @@ import styles from './Maloriak-styles.modules.css';
 
 | МТ не очень хорошего человека, который не отходит от [потока магмы](https://www.wowhead.com/cata/ru/spell=78194) и летает | МТ нормального человека, который отходит от [потока магмы](https://www.wowhead.com/cata/ru/spell=78194) |
 |:-------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
-|                                 ![Maloriak](/img/bd/Maloriak/Maloriak_magma_badTank.gif)                                  |                        ![Maloriak](/img/bd/Maloriak/Maloriak_magma_goodTank.gif)                        |
+|                     ![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_magma_badTank.gif)                      |            ![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_magma_goodTank.gif)            |
 
 :::caution
 [Потоки магмы](https://www.wowhead.com/cata/ru/spell=78194) применяются оооочень часто. У МТ есть буквально 3-4 секунды,
@@ -564,7 +555,7 @@ import styles from './Maloriak-styles.modules.css';
 
 </i></b>
 
-![Maloriak](/img/bd/Maloriak/Maloriak_ice_sphere.gif)
+![Maloriak](https://www.wowhcb.ru/adepts/bd/Maloriak/Maloriak_ice_sphere.gif)
 
 </div>
 
@@ -604,13 +595,13 @@ import styles from './Maloriak-styles.modules.css';
       понимаю, [чародейская буря](https://www.wowhead.com/cata/ru/spell=77908) всегда имело время каста в 1.5 с. однако
       урон наносился сразу же после прочтения и далее каждую 1 сек., а в данном патче будет дополнительное окно в 1
       сек.)
-    - [Ледяная вспышка](https://www.wowhead.com/cata/ru/spell=77699) всё ещё могла применится на ОТ в особых случаях.
+    - [Ледяная вспышка](https://www.wowhead.com/cata/ru/spell=77699) всё ещё могла примениться на ОТ в особых случаях.
       Близы постарались это пофиксить.
 - **Хотфикс (29 апреля 2011)**: Малориак больше не прерывает
   потоковую [чародейскую бурю](https://www.wowhead.com/cata/ru/spell=77908), чтобы добежать до МТ, если тот отходит от
   босса.
 - **4.2.0 (28 июня 2011)**:
-    - Урон и здоровье мобов в данном энкаунтера уменьшены на 20% (уменьшен не только урон с авто-атак но и урон от
+    - Урон и здоровье мобов в данном энкаунтера уменьшены на 20% (уменьшен не только урон с авто-атак, но и урон от
       способностей).
     - Бафф урона от [катализатора роста](https://www.wowhead.com/cata/ru/spell=77987) уменьшен.
     - [Главные объекты эксперимента](https://www.wowhead.com/cata/ru/npc=41841) теперь не
