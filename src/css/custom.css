@@ -170,3 +170,8 @@ h1, h2, h3, h4, h5, h6, .text-break {
     color: #fe5631
 }
 
+table {
+    display: table;
+    width: initial;
+    margin: 0 auto;
+}
