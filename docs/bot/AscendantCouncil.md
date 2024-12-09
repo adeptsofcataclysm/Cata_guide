@@ -11,28 +11,26 @@ import styles from './AscendantCouncil-styles.modules.css';
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Совет_перерождённых_2.png)
+![Chetire_uroda](/img/bot/AscendantCouncil/Совет_перерождённых_2.jpg)
 
 </div>
 
-<div className="text--center lore_text">
-<b>
+<div className="lore_text">
 
-Высшие члены Культа Сумеречного Молота могут удостоится совершить опасный и сложный ритуал, который они называют "
-Вознесением". В нём избранный культист поглощает огромное количество стихийной магии, перерождаясь в совершенно новое
-существо. Сложно представить себе более опасного врага, чем разумное существо, наделённого первозданной магией огня или ветра.
-</b>
+**Высшие члены Культа Сумеречного Молота могут удостоиться совершить опасный и сложный ритуал, который они называют 
+"Вознесением". В нём избранный культист поглощает огромное количество стихийной магии, перерождаясь в совершенно новое
+существо. Сложно представить себе более опасного врага, чем разумное существо, наделённого первозданной магией огня или
+ветра.**
+
 </div>
 
-Третий энкаунтер в Сумеречном бастионе, в котором нужно сразиться с четырмя стихийными воплощениями. Хоть это и "совет",
-но
-состоящий из 4-х боссов, однако с рейдом одновременно будет сражаться только пара. Сначала одна, потом вторая, а затем
-все четыре
-босса сольются в одно чудовище.
+Третий энкаунтер в Сумеречном бастионе, в котором нужно сразиться с четырьмя стихийными воплощениями. Хоть это и
+"совет", но состоящий из 4-х боссов, однако с рейдом одновременно будет сражаться только пара. Сначала одна, потом 
+вторая, а затем все четыре босса сольются в одно чудовище.
 
 ## Немного про бой
 
-Понадобятся 2 танка (но теоритически можно в одного, хоть и сложнее).В бою участвуют 4 перерождённых, каждый из которых
+Понадобятся 2 танка (теоретически можно в одного, хоть и сложнее). В бою участвуют 4 перерождённых, каждый из которых
 имеет способности определённой стихии (лёд, огонь, земля и молния).
 Бой состоит из трёх последовательных фаз:
 
@@ -40,7 +38,7 @@ import styles from './AscendantCouncil-styles.modules.css';
   Огнисом(<span className="dmg-fire">огненный</span> урон).
 - **2 Фаза:** рейд дерётся с Аэроном(<span className="dmg-nature">природный</span> урон) и
   Террастрой(<span className="dmg-phis">физический</span> урон).
-- **3 Фаза:** боссы сливается элементивеого чудовища, у которого есть способности всех стихий.
+- **3 Фаза:** боссы сливается элементиевого чудовища, у которого есть способности всех стихий.
 
 Первые две фазы сами по себе похожи на энкаунтер двух Эредарок из Санвела. На первой фазе
 будут <span className="dmg-ice">
@@ -51,12 +49,15 @@ import styles from './AscendantCouncil-styles.modules.css';
 
 **У всех боссов своё здоровье, оно не распределяется между ними (как, например, на Валионе и Тиралионе).**
 
+
 <Tabs>
 <TabItem value="1phase" label="1 Фаза: огонь и вода">
 
-<div className="text--center">
-<b><i>Фаза длится до тех пор, пока хотя бы у одного из боссов не останется 25% здоровья. </i></b>
-</div>
+:::note
+
+Фаза длится до тех пор, пока хотя бы у одного из боссов не останется 25% здоровья.
+
+:::
 
 <br/>
 Один танк берёт Огниса, второй Аквариона и разводят в разные стороны. Почти все МДД остаются под огненным боссом,
@@ -66,9 +67,8 @@ import styles from './AscendantCouncil-styles.modules.css';
 
 Огнис [дышит](https://www.wowhead.com/cata/ru/spell=100795) перед собой, **танку нужно его отворачивать.** Время от
 времени
-босс прыгнет в РДД зону, и на [огненном рывке](https://www.wowhead.com/cata/ru/spell=82860) тут же вернётся обратно к
-МТ, оставляя после себя
-полоску огня.
+босс прыгнет в РДД зону, и на [огненном рывке](https://www.wowhead.com/cata/ru/spell=82860) тут же вернётся к
+МТ, оставляя после себя полоску огня.
 
 Акварион стреляет в рейд [ледяные бомбы](https://www.wowhead.com/cata/ru/spell=82699), которые взрываются в АОЕ. **Нужно
 стоять расспреданно!** Также эти бомбы накладывают
@@ -87,18 +87,17 @@ import styles from './AscendantCouncil-styles.modules.css';
 идёт по РДД и бафает их [печатью огня](https://www.wowhead.com/cata/ru/spell=82663).** Вопрос лишь в том, а нужно ли это
 делать?
 
-Когда Огнис окружит себя [пламенной эгидой](https://www.wowhead.com/cata/ru/spell=82631), то **всем ДД нужно свичнуться,
-пробить
-щит и кикнуть каст [занимающегося пламени](https://www.wowhead.com/cata/ru/spell=82643) КАК МОЖНО СКОРЕЕ!** В нанесении
-дополнительного
-урона поможет [усиление льда](https://www.wowhead.com/cata/ru/spell=82666), которое можно получить от игрока
-с [сердцем льда](https://www.wowhead.com/cata/ru/spell=82665) (если тот, конечно, разнёс его по ДД).
+Когда Огнис окружит себя [пламенной эгидой](https://www.wowhead.com/cata/ru/spell=82631), то **всем ДД нужно
+переключиться, пробить щит и кикнуть каст [занимающегося пламени](https://www.wowhead.com/cata/ru/spell=82643)
+КАК МОЖНО СКОРЕЕ!**
+В нанесении дополнительного урона поможет [усиление льда](https://www.wowhead.com/cata/ru/spell=82666), которое можно
+получить от игрока с [сердцем льда](https://www.wowhead.com/cata/ru/spell=82665). Если тот, конечно, разнёс его по ДД.
 
 <div className="text--center">
 <span className="red">Героический режим</span>
 </div>
 
-На этой сложности пока рейд дерётся с Огнисом а Акварионом, два остальных советника будут мешать рейду своими
+На этой сложности пока рейд дерётся с Огнисом, а Акварионом, два остальных советника будут мешать рейду своими
 дебаффами. Аэрон будет накладывать на случайных
 людей [статическую перегрузку](https://www.wowhead.com/cata/ru/spell=92067), из-за которой персонажи будут дамажить
 своих союзников вокруг себя. Террастра тоже будет накладывать
@@ -109,9 +108,11 @@ import styles from './AscendantCouncil-styles.modules.css';
 </TabItem>
 <TabItem value="2phase" label="2 Фаза: молния и земля">
 
-<div className="text--center">
-<b><i>Фаза длится до тех пор, пока хотя бы у одного из боссов не останется 25% здоровья. </i></b>
-</div>
+:::note
+
+Фаза длится до тех пор, пока хотя бы у одного из боссов не останется 25% здоровья.
+
+:::
 
 <br/>
 Огнис и Акварион пропадают. На арене появляется вторая пара, Аэрон и Террастра.
@@ -171,11 +172,13 @@ import styles from './AscendantCouncil-styles.modules.css';
 лужу, чтобы они нейтрализовали друг друга.**
 
 </TabItem>
-<TabItem value="3phase" label="3 Фаза: элементивое чудовище">
+<TabItem value="3phase" label="3 Фаза: элементиевое чудовище">
 
-<div className="text--center">
-<b><i>Фаза длится до смерти босса</i></b>
-</div>
+:::note
+
+Фаза длится до смерти босса
+
+:::
 
 Четыре побитых советника применяют секретный приём: СЛИЯНИЕ! Весь рейд оглушается на 15 сек., в течении которых боссы
 соединяются в одного, Элементиевого чудовища.
@@ -197,7 +200,7 @@ import styles from './AscendantCouncil-styles.modules.css';
   точечно прохилить.**
 
 В целом, это вся 3-я фаза. Много урона в рейд, много движения от луж, много перебежек от бомбочек. Пока хилам хватает
-маны выхиливать весь этот стихийный армагеддон, ДД нужно быстро расправится с боссом.
+маны выхиливать весь этот стихийный армагеддон, ДД нужно быстро расправиться с боссом.
 
 _Выжить любой ценой!_
 
@@ -207,12 +210,12 @@ _Выжить любой ценой!_
 ## Арена энкаунтера
 
 В начале боя на верхней площадке будут стоять Огнис и Акварион, слева и справа. В начале 2-й фазы эта пара сразу же
-исчезает, а Аэрон и Террастра телепортируются на верхнюю площадку, тоже слева и справа. На 3-й фазе Элементиваое
+исчезает, а Аэрон и Террастра телепортируются на верхнюю площадку, тоже слева и справа. На 3-й фазе Элементиевое
 чудовище появляется прямо в центре арены.
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Arena_1.png)
+![Chetire_uroda](/img/bot/AscendantCouncil/Arena_1.jpg)
 
 </div>
 
@@ -232,7 +235,7 @@ _Выжить любой ценой!_
 <div className="text--center">
 <b><i>Огнис всегда стоит слева, Акварион всегда стоит справа</i></b>
 
-![Chetire_uroda](/img/bot/AscendantCouncil/1Phase_pered_pulom.png)
+![Chetire_uroda](/img/bot/AscendantCouncil/1Phase_pered_pulom.jpg)
 
 </div>
 
@@ -261,7 +264,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Ognis_charge.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Ognis_charge.gif)
 
 </div>
 
@@ -273,7 +276,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Ognis_dihanie.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Ognis_dihanie.gif)
 
 </div>
 
@@ -296,7 +299,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Ognis_AOE.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Ognis_AOE.gif)
 
 </div>
 
@@ -343,13 +346,11 @@ _Выжить любой ценой!_
       передвижения на 25%. Длится 45 сек. или пока игрок не получит урон от какой-либо огненной способности Огниса.
 
 <div className="text--center">
-<b><i>
 
-Если персонаж [промок](https://www.wowhead.com/cata/ru/spell=82762), то можно просушится зайдя
-в [огонь](https://www.wowhead.com/cata/ru/spell=82860) Огниса.
-</i></b>
+***Если персонаж [промок](https://www.wowhead.com/cata/ru/spell=82762), то можно просушиться зайдя
+в [огонь](https://www.wowhead.com/cata/ru/spell=82860) Огниса.***
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Akwaruon_bombi.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Akwaruon_bombi.gif)
 
 </div>
 
@@ -371,7 +372,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Akwarion_glibi.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Akwarion_glibi.gif)
 
 </div>
 
@@ -419,17 +420,14 @@ _Выжить любой ценой!_
 каждые 20 сек.
 
 <div className="text--center">
-<b><i>
 
-На примере ниже человек получил [статическую перегрузку](https://www.wowhead.com/cata/ru/spell=92068). Вокруг него людей
+**На примере ниже человек получил [статическую перегрузку](https://www.wowhead.com/cata/ru/spell=92068). Вокруг него людей
 нет, так что игрок просто стоит и ждёт второго дебаффа. Ему
 повезло, [гравитационное ядро](https://www.wowhead.com/cata/ru/spell=92075) повесилось на охотника, который стоял за
 спиной (причём на обоих аддоном вешается метка). Персонажи встречаются, дебаффы исчезают и метки спадают (хвала удобным
-аддонам!)
+аддонам!)**
 
-</i></b>
-
-![Chetire_uroda](/img/bot/AscendantCouncil/Phese1_ger_soak.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Phese1_ger_soak.gif)
 
 </div>
 
@@ -507,7 +505,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Phase12_trans.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Phase12_trans.gif)
 
 </div>
 
@@ -541,7 +539,7 @@ _Выжить любой ценой!_
 <div className="text--center">
 <b><i>В данном примере сбоку ВАшка подсвечивает, когда нужно искать торнадо и получить [кружащиеся ветра](https://www.wowhead.com/cata/ru/spell=83500), чтобы засейвится от  [сотрясения](https://www.wowhead.com/cata/ru/spell=83565)</i></b>
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Aeron_tornado.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Aeron_tornado.gif)
 
 </div>
 
@@ -555,7 +553,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Aeron_gromovoi_udar.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Aeron_gromovoi_udar.gif)
 
 </div>
 
@@ -571,7 +569,7 @@ _Выжить любой ценой!_
 <div className="text--center">
 <b><i>Если на вас [грозовой разрядник](https://www.wowhead.com/cata/ru/spell=83099), то нужно немедленно выбежать из рейда. Подождать, пока прилетит [цепнуха](https://www.wowhead.com/cata/ru/spell=83282), после чего можно спокойно возвращаться в замес.</i></b>
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Aeron_cepnuha.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Aeron_cepnuha.gif)
 
 </div>
 
@@ -622,7 +620,7 @@ _Выжить любой ценой!_
 <div className="text--center">
 <b><i>В данном примере сбоку ВАшка подсвечивает, когда нужно искать воронку и получить [заземление](https://www.wowhead.com/cata/ru/spell=83581), чтобы засейвится от [громового удара](https://www.wowhead.com/cata/ru/spell=83067)</i></b>
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Terrastra_voronka.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Terrastra_voronka.gif)
 
 </div>
 
@@ -645,7 +643,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Terrastra_ulta.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Terrastra_ulta.gif)
 
 </div>
 
@@ -667,7 +665,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Terrastra_shipi.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Terrastra_shipi.gif)
 
 </div>
 
@@ -719,7 +717,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Arwarion_sphere.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Arwarion_sphere.gif)
 
 </div>
 
@@ -728,7 +726,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Akwarion_2phase_sphere1.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Akwarion_2phase_sphere1.gif)
 
 </div>
 
@@ -737,7 +735,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Akwarion_2phase_sphere3.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Akwarion_2phase_sphere3.gif)
 
 </div>
 
@@ -753,7 +751,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Ognis_luza.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Ognis_luza.gif)
 
 </div>
 
@@ -764,7 +762,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Akwarion_2phase_sphere2.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Akwarion_2phase_sphere2.gif)
 
 </div>
 
@@ -779,7 +777,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Phase3_transition.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Phase3_transition.gif)
 
 </div>
 
@@ -811,7 +809,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Monstr_luza.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Monstr_luza.gif)
 
 </div>
 
@@ -827,7 +825,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Monsr_lavaseed.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Monsr_lavaseed.gif)
 
 </div>
 
@@ -847,7 +845,7 @@ _Выжить любой ценой!_
 
 <div className="text--center">
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Monstr_cepnuha.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Monstr_cepnuha.gif)
 
 </div>
 
@@ -866,7 +864,7 @@ _Выжить любой ценой!_
 <div className="text--center">
 <b><i>В оригинале в героическом режиме способность работала на 5-х игроков, но потом уменьшили до 3-х. Судя по логам беты катаклизма, способность будет действовать на 3-х.</i></b>
 
-![Chetire_uroda](/img/bot/AscendantCouncil/Monstr_gravity.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/bot/AscendantCouncil/Monstr_gravity.gif)
 
 </div>
 
