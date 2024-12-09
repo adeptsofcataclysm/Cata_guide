@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chetire_uroda](/img/tfw/Alakir/Alakir.png)
+![Chetire_uroda](/img/tfw/Alakir/Alakir.jpg)
 
 </div>
 
@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
 :::caution
 
-В начале боя важно МТ первому ударить Ал'акира, т.к. с агро тут всё очень странно. Если по простому - босс крайне
+В начале боя важно МТ первому ударить Ал'акира, т.к. с агро тут всё очень странно. Если по-простому - босс крайне
 неохотно меняет свою цель, хз с чем это связано. Были случаи, когда МТ немного отходил от Алакира, тот переагривался на
 ОТ и затем просто игнорировал МТ.
 
@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
 причём достаточно далеко. Если во время применения этой способности не быть близко к боссу, то вас попросту выбросит за
 платформу.**
 
-Также на 1-й фазе оооочень много чего нужно доджить. Уже было упомянуты
+Также на 1-й фазе оооочень много чего нужно доджить. Уже были упомянуты
 сектора [молний](https://www.wowhead.com/cata/ru/spell=88214), из которых нужно уходить. **Помимо этого, по арене
 постоянно летают стены [грозового фронта](https://www.wowhead.com/cata/ru/spell=87856), представляющю собой буквально
 стену из торнадо на всю ширину кольца. Однако в этой стене есть 1 зазор, через который нужно пройти.** Ну и чтобы рейду
@@ -124,15 +124,16 @@ import TabItem from '@theme/TabItem';
 
 ## Механики энкаунтера
 
-[Берсерк](https://www.wowhead.com/cata/ru/spell=61714)**: наступает через 9 мин. после начала боя.**
+[Берсерк](https://www.wowhead.com/cata/ru/spell=61714)**: наступает через 9 минут после начала боя.**
 
 <div className="text--center">
-<b><i>Агро на Ал'акире и его хитбокс</i></b>
+
+***Агро на Ал'акире и его хитбокс***
+
 </div>
 
 Хитбокс у босса ооочень огромный. Случайное нажатие ПКМ мимо шкафа лока, или тумбы с огурцами, маговского столика, и
-босс
-спулится от мили-тычки. Будте крайне аккуратны при расстановке перед первой фазы.
+босс спулится от мили-тычки. Будьте крайне аккуратны при расстановке перед первой фазы.
 
 :::info
 
@@ -155,14 +156,18 @@ import TabItem from '@theme/TabItem';
   урон. Сначала тик по 4000 рона, затем по 8000, 12 000, 16 000 и т.д.
 
 <div className="text--center">
-<b><i>Если игрок вылетит за пределы арены на 1 и 2 фазах</i></b>
+
+***Если игрок вылетит за пределы арены на 1 и 2 фазах***
+
 </div>
 
 то его подхватит ветрянной поток и мееееедленно поднимет и выкинет обратно на арену. При этом персонаж находится в
 стане, он ничего не может прожать.
 
 <div className="text--center">
-<b><i>Полёт на 3-й фазе</i></b>
+
+***Полёт на 3-й фазе***
+
 </div>
 
 На последней фазе боя платформа ломается и рейд начинает летать (кто был на Кель'тасе в Крепости Бури, тот поймёт что
@@ -172,9 +177,11 @@ import TabItem from '@theme/TabItem';
   на весь рейд до конца боя. Каждый игрок способен летать, причём скорость его движения возрастает на 300%.
 
 <div className="text--center">
-<b><i>При переходе на 3-ю фазу Ал'акир разьрасывает игроков, ломает арену, и спустя некоторое время (персонажи при этом не контролируются игроками) на рейде появляется [око шторма](https://www.wowhead.com/cata/ru/spell=82724)</i></b>
 
-![Chetire_uroda](/img/tfw/Alakir/Ala_polet.gif)
+***При переходе на 3-ю фазу Ал'акир разбрасывает игроков, ломает арену, и спустя некоторое время (персонажи при этом не
+контролируются игроками) на рейде появляется [око шторма](https://www.wowhead.com/cata/ru/spell=82724)***
+
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/Ala_polet.gif)
 
 </div>
 
@@ -189,10 +196,12 @@ import TabItem from '@theme/TabItem';
 ### 1 Фаза
 
 <div className="text--center">
-<b><i>Длится от 100% до 80% Ал'акира</i></b>
+
+***Длится от 100% до 80% Ал'акира***
+
 </div>
 
-Всему рейду прийдётся распределится по всему кольцу арены из-за следующей способности:
+Всему рейду прийдётся распределиться по всему кольцу арены из-за следующей способности:
 
 - [Поражение молнией](https://www.wowhead.com/cata/ru/spell=95764) **(мгновенное | войд-зона)**: грубо говоря, данная
   способность
@@ -206,13 +215,13 @@ import TabItem from '@theme/TabItem';
 :::info
 
 В нормальном режиме в секторе [поражения молнией](https://www.wowhead.com/cata/ru/spell=95764) игроки не чейнят друг в
-другу какие-то молнии (т.е. нет третьей части).
+друга какие-то молнии (т.е. нет третьей части).
 
 :::
 
 <div className="text--center">
 
-![Chetire_uroda](/img/tfw/Alakir/Ala_sector_molnii.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/Ala_sector_molnii.gif)
 
 </div>
 
@@ -232,7 +241,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chetire_uroda](/img/tfw/Alakir/Ala_otkidka.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/Ala_otkidka.gif)
 
 </div>
 
@@ -271,7 +280,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chetire_uroda](/img/tfw/Alakir/Ala_tornado.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/Ala_tornado.gif)
 
 </div>
 
@@ -303,14 +312,16 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chetire_uroda](/img/tfw/Alakir/Ala_blizard.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/img/tfw/Alakir/Ala_blizard.gif)
 
 </div>
 
 ### 2 Фаза
 
 <div className="text--center">
-<b><i>Длится от 80% до 25% Ал'акира</i></b>
+
+***Длится от 80% до 25% Ал'акира***
+
 </div>
 
 Ал'акир недоволен, погода ухудшается. Рейд всё также остаётся на платформе, часть способностей остаётся, часть
@@ -333,7 +344,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chetire_uroda](/img/tfw/Alakir/Ala_tornado2.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/Ala_tornado2.gif)
 
 </div>
 
@@ -358,7 +369,9 @@ import TabItem from '@theme/TabItem';
 присутствует вторая механика.
 
 <div className="text--center">
-<b><i> [Буревики](https://www.wowhead.com/ru/npc=47175) и их [ответная реакция](https://www.wowhead.com/cata/ru/spell=87904) </i></b>
+
+***[Буревики](https://www.wowhead.com/ru/npc=47175) и их [ответная реакция](https://www.wowhead.com/cata/ru/spell=87904)***
+
 </div>
 
 <div className="imgright">
@@ -373,7 +386,7 @@ import TabItem from '@theme/TabItem';
 таунтятся, имеют агролист. Они подвержены любому контролю. Их забирает ОТ. Данных аддов нужно танковать в стороне от
 рейда из-за их молний:
 
-- [Буревик](https://www.wowhead.com/cata/ru/spell=87908) **(мгновенное)**: буревик бостоянно шарахает ближайших (в
+- [Буревик](https://www.wowhead.com/cata/ru/spell=87908) **(мгновенное)**: буревик постоянно шарахает ближайших (в
   радиусе 5 ярдов от себя) игроков молниями. Персонажи получают 5000 <span className="dmg-nature">природного</span>
   урона раз в 1 сек. под мобом. Данная "электризованность" адда висит на нём постоянно. Каждый раз при получении урона
   на игрока накладывается одноимённый дебафф на 2 сек. который увеличивает
@@ -389,7 +402,7 @@ import TabItem from '@theme/TabItem';
 <div className="text--center">
 <b><i>"Классическая" расстановка рейда на 2-й фазе. Весь рейд стоит в одном месте, а ОТ с [буревиками](https://www.wowhead.com/ru/npc=47175) где-то там в сторонке.</i></b>
 
-![Chetire_uroda](/img/tfw/Alakir/ALa_burevik.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/ALa_burevik.gif)
 
 </div>
 
@@ -433,9 +446,9 @@ import TabItem from '@theme/TabItem';
 :::
 
 <div className="text--center">
-<b><i>При переходе на 3-ю фазу Ал'акир разьрасывает игроков, ломает арену, и спустя некоторое время (персонажи при этом не контролируются игроками) на рейде появляется [око шторма](https://www.wowhead.com/cata/ru/spell=82724)</i></b>
+<b><i>При переходе на 3-ю фазу Ал'акир разбрасывает игроков, ломает арену, и спустя некоторое время (персонажи при этом не контролируются игроками) на рейде появляется [око шторма](https://www.wowhead.com/cata/ru/spell=82724)</i></b>
 
-![Chetire_uroda](/img/tfw/Alakir/Ala_polet.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/Ala_polet.gif)
 
 </div>
 
@@ -449,11 +462,11 @@ import TabItem from '@theme/TabItem';
 
 На 3-й фазе агро не имеет значения. Ал'акир будет стрелять по всем игрокам:
 
-- [Молния](https://www.wowhead.com/cata/ru/spell=89641) **(мгновенное)**: босс каждые 3 сек. стреляет вслучайного игрока
-  на арене молниевым шаром, котоырый наносит 45 000 <span className="dmg-nature">природного</span> урона.
+- [Молния](https://www.wowhead.com/cata/ru/spell=89641) **(мгновенное)**: босс каждые 3 сек. стреляет в случайного игрока
+  на арене молниевым шаром, который наносит 45 000 <span className="dmg-nature">природного</span> урона.
 
 Возвращается отбрасывание с 1-й фазы, но усиленное. Оно наносит больше урона (60 000 урона вместо 50 000), применяется
-мгновенно (на 1-й фазе откидка кастовалась 4 сек.) и перезаряжается кажыде 20 сек. (на 1-й фазе откидка перезаряжалась
+мгновенно (на 1-й фазе откидка кастовалась 4 сек.) и перезаряжается каждые 20 сек. (на 1-й фазе откидка перезаряжалась
 24 сек.)
 
 - [Порыв ветра](https://www.wowhead.com/cata/ru/spell=88858) **(мгновенное)**: Ал'акир отбрасывает ВСЕХ игроков на арене
@@ -469,7 +482,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Chetire_uroda](/img/tfw/Alakir/Ala_otkidka3phase.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/Ala_otkidka3phase.gif)
 
 </div>
 
@@ -485,19 +498,19 @@ import TabItem from '@theme/TabItem';
 <div className="text--center">
 <b><i>Весь рейд наодился у "ног" босса. После [откидывания](https://www.wowhead.com/cata/ru/spell=88858) заспавнились [грозовые облака](https://www.wowhead.com/cata/ru/spell=89588). Часть полы плаща оказалась в этих тучах, рейд улетел чуть выше.</i></b>
 
-![Chetire_uroda](/img/tfw/Alakir/ALa_tuchi.gif)
+![Chetire_uroda](https://www.wowhcb.ru/adepts/tfw/Alakir/ALa_tuchi.gif)
 
 </div>
 
 :::danger
 
-По тактике, весь рейд кучкой смещается то вверх то вниз. И когда люди будут подниматься снизу-вверх, то стоит вспомнить
+По тактике, весь рейд кучкой смещается то вверх, то вниз. И когда люди будут подниматься снизу-вверх, то стоит вспомнить
 про отличительную деталь [откидывания](https://www.wowhead.com/cata/ru/spell=88858) на этой фазе. Оно отбрасывает
 персонажей назад и **немного вниз**. Если не подлететь с запасом, то Ал'акир вполне способен отправить некоторых игроков
 в нижнюю [тучу](https://www.wowhead.com/cata/ru/spell=89588).
 
 Также отмечу, что в самом низу всю 3-ю фазу существует вечный
-слой [грозовых облаков](https://www.wowhead.com/cata/ru/spell=89588). Слишком сильно спускаться вниз тоже не следует.
+слой [грозовых облаков](https://www.wowhead.com/cata/ru/spell=89588). Слишком сильно спускаться тоже не следует.
 
 :::
 
