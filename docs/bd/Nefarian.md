@@ -11,7 +11,7 @@ import Dominion from './_Nefarian_Dominion.mdx';
 
 <div className="text--center">
 
-![Nefarian](/img/bd/Nefarian/Nefarian.png)
+![Nefarian](/img/bd/Nefarian/Nefarian.jpg)
 
 </div>
 
@@ -288,7 +288,7 @@ import Dominion from './_Nefarian_Dominion.mdx';
 
 <div className="text--center">
 
-![arena2](/img/bd/Nefarian/Nefa_arena_vidsnizu.png)
+![arena2](/img/bd/Nefarian/Nefa_arena_vidsnizu.jpg)
 
 </div>
 

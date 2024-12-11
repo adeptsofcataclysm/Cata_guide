@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Atramedes](/img/bd/Atramedes/Atramedes.png)
+![Atramedes](/img/bd/Atramedes/Atramedes.jpg)
 
 </div>
 
@@ -128,7 +128,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Arenka](/img/bd/Atramedes/Atramedes_arena_2.png)
+![Arenka](/img/bd/Atramedes/Atramedes_arena_2.jpg)
 
 </div>
 
@@ -172,7 +172,7 @@ import TabItem from '@theme/TabItem';
 
 <div className="text--center">
 
-![Arenka](/img/bd/Atramedes/Atramedes_arena_2.png)
+![Arenka](/img/bd/Atramedes/Atramedes_arena_2.jpg)
 
 </div>
 
