@@ -2,12 +2,12 @@
 sidebar_position: 1
 title: Введение
 description: Огненные просторы
-image: /img/fl/FL_intro.png
+image: /img/fl/FL_intro.jpg
 ---
 
 <div className="text--center">
 
-![FL](/img/fl/FL_intro.png)
+![FL](/img/fl/FL_intro.jpg)
 </div>
 
 <div className="lore_text">
