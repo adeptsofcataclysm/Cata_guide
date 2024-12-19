@@ -12,7 +12,7 @@ import Immol from '/img/fl/Shan/Immoltrap.png';
 
 <div className="text--center">
 
-![Shan](/img/fl/Shan/Shannox.png)
+![Shan](/img/fl/Shan/Shannox.jpg)
 </div>
 
 <div className="text--center lore_text">
@@ -292,7 +292,7 @@ import Immol from '/img/fl/Shan/Immoltrap.png';
 <div className="text--center">
 <b><i>Пример броска [кристаллической](https://www.wowhead.com/cata/ru/spell=99837) ловушки</i></b>
 
-![TrapsBrosok](/img/fl/Shan/Shan_trapbrosok.gif)
+TODO
 
 </div>
 
@@ -303,7 +303,7 @@ import Immol from '/img/fl/Shan/Immoltrap.png';
 |:------------------------------------------------------------:|:--------------------------------------------------------:|
 | <img src={Cristal} alt="CristalTrap" style={{width: 150}} /> | <img src={Immol} alt="ImmolTrap" style={{width: 150}} /> |
 
-![Traps](/img/fl/Shan/Shan_traps.png)
+TODO
 
 </div>
 
