@@ -4,6 +4,4 @@ title: Введение
 description: Пара вводных от аффтара
 ---
 
-## Душа дракона
-
-![wip](/img/work-in-progress.png)
+![Dragon_soul](/img/ds/Dragon_soul.png)
