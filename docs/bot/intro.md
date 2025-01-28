@@ -4,11 +4,11 @@ title: Введение
 description: Пара вводных от аффтара
 ---
 
-## Сумеречный Бастион
+import BTimg from '/img/bot/BT.png';
 
 <div className="text--center">
 
-![botaaaa](/img/bot/BOT.jpg)
+<img src={BTimg} alt="BT" style={{width: 1000}}/>
 
 </div>
 

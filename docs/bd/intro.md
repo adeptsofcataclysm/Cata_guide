@@ -4,9 +4,11 @@ title: Введение
 description: Пара вводных от аффтара
 ---
 
+import BDimg from '/img/bd/BD.png';
+
 <div className="text--center">
 
-![Nefa](/img/bd/Nefarian.jpg)
+<img src={BDimg} alt="BD" style={{width: 1000}}/>
 
 </div>
 

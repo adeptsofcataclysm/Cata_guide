@@ -4,11 +4,9 @@ title: Введение
 description: Пара вводных от аффтара
 ---
 
-## Трон Четырех Ветров
-
 <div className="text--center">
 
-![TFW](/img/tfw/throne-of-the-four-winds.jpg)
+![TFW](/img/tfw/TFV.png)
 
 </div>
 
