@@ -135,39 +135,63 @@ h1, h2, h3, h4, h5, h6, .text-break {
 }
 
 .ooze-color {
-    color: #35a354
+    color: #35a354;
 }
 
 .priest {
-    color: #a3f9ff
+    color: #a3f9ff;
 }
 
 .hunter {
-    color: #aad372
+    color: #aad372;
 }
 
 .paladin {
-    color: #f48cba
+    color: #f48cba;
 }
 
 .red {
-    color: #ec1c24
+    color: #ec1c24;
 }
 
 .arcanotron {
-    color: #f361f5
+    color: #f361f5;
 }
 
 .electron {
-    color: #6fd9f3
+    color: #6fd9f3;
 }
 
 .toxitron {
-    color: #4ae480
+    color: #4ae480;
 }
 
 .magmatron {
-    color: #fe5631
+    color: #fe5631;
+}
+
+.glowing {
+    color: yellow;
+}
+
+.crimson {
+    color: red;
+}
+
+.shadowed {
+    color: DarkOrchid;
+}
+
+.acidic {
+    color: green;
+}
+
+.cobalt {
+    color: #00a8f3;
+}
+
+.dark {
+    color: #838383;
 }
 
 table {
@@ -175,3 +199,4 @@ table {
     width: initial;
     margin: 0 auto;
 }
+
