@@ -194,6 +194,18 @@ h1, h2, h3, h4, h5, h6, .text-break {
     color: #838383;
 }
 
+.eye {
+    color: #fff200;
+}
+
+.flail {
+    color: #0ed145;
+}
+
+.claw {
+    color: #ffaec8;
+}
+
 table {
     display: table;
     width: initial;

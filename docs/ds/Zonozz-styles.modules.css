@@ -1,0 +1,20 @@
+.eye{
+    color: #fff200;
+}
+.eye[aria-selected='true'] {
+    border-bottom-color: #fff200;
+}
+
+.flail{
+    color: #0ed145;
+}
+.flail[aria-selected='true'] {
+    border-bottom-color: #0ed145;
+}
+
+.claw{
+    color: #ffaec8;
+}
+.claw[aria-selected='true'] {
+    border-bottom-color: #ffaec8;
+}
