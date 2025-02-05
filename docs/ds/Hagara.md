@@ -319,7 +319,7 @@ import Frostimg from '/img/ds/Hagara/Frost5.png';
 Начинаем переходку. Хагар телепортируется в центр арены, на краях спавнится
 4 [ледяных связующих кристалла](https://www.wowhead.com/ru/npc=56136). Босс начинает окружать
 себя [водяной капсулой](https://www.wowhead.com/cata/ru/spell=105256). Хагара становится неуязвимой, а люди, если зайдут
-в данный [пызурь]((https://www.wowhead.com/cata/ru/spell=105256))
+в данный [пызурь](https://www.wowhead.com/cata/ru/spell=105256)
 начнут [задыхаться](https://www.wowhead.com/cata/ru/spell=110317).
 
 - [Ледяная буря](https://www.wowhead.com/cata/ru/spell=105256) **(5 сек.)**: Хагара создаёт вокруг себя водяную капсулу,
