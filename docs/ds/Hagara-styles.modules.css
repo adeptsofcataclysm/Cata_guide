@@ -1,0 +1,13 @@
+.frost{
+    color: #1651c7;
+}
+.frost[aria-selected='true'] {
+    border-bottom-color: #1651c7;
+}
+
+.groza{
+    color: green;
+}
+.groza[aria-selected='true'] {
+    border-bottom-color: green;
+}

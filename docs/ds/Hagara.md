@@ -7,6 +7,7 @@ description: Пара вводных от аффтара
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Frostimg from '/img/ds/Hagara/Frost5.jpg';
+import styles from './Hagara-styles.modules.css';
 
 <div className="text--center">
 
@@ -49,7 +50,8 @@ import Frostimg from '/img/ds/Hagara/Frost5.jpg';
 
 :::danger
 
-<span className="red">**После 8 минут боя Хагара впадает в [берсерк](https://www.wowhead.com/cata/ru/spell=61714)**</span>
+<span className="red">**После 8 минут боя Хагара впадает в [берсерк](https://www.wowhead.com/cata/ru/spell=61714)
+**</span>
 
 :::
 
@@ -59,6 +61,7 @@ import Frostimg from '/img/ds/Hagara/Frost5.jpg';
 версии, всего 30 сек.
 
 #### Две простые способности
+
 [Сосредоточенная атака](https://www.wowhead.com/cata/ru/spell=107851) по МТ
 и [Расколотый лёд (по сути ледяное копьё)](https://www.wowhead.com/cata/ru/spell=105289) по игрокам.
 
@@ -106,7 +109,6 @@ import Frostimg from '/img/ds/Hagara/Frost5.jpg';
   ледяное копьё, которое наносит 100 000 <span className="dmg-ice">ледяного</span> урона и снижает скорость передвижения
   на 50% на 4 сек. (замедляющий дебафф является <span className="debuf-magic">магическим</span>). Хагара применяет эту
   способность примерно каждые 16 сек.
-
 
 #### Две способности посложнее
 
@@ -350,11 +352,12 @@ import Frostimg from '/img/ds/Hagara/Frost5.jpg';
 </div>
 
 У каждого [кристалла](https://www.wowhead.com/ru/npc=56136) по **6 974 100 здоровья**. Они просто стоят, ничего плохого
-рейду не делают. У них одно заклинание, но оно **сугубо декоративное**. Ничего фактического оно не делает, это чисто 
+рейду не делают. У них одно заклинание, но оно **сугубо декоративное**. Ничего фактического оно не делает, это чисто
 "декоративная" вещь.
 ~~Но я - не я, если не доебусь до такого!~~
 
-- [Кристаллическая привязь](https://www.wowhead.com/cata/ru/spell=105482) **(механика энкаунтера)**: [кристаллы](https://www.wowhead.com/ru/npc=56136)
+- [Кристаллическая привязь](https://www.wowhead.com/cata/ru/spell=105482) **(механика энкаунтера)
+  **: [кристаллы](https://www.wowhead.com/ru/npc=56136)
   подпитывают силу Хагары, накладывая на неё данный бафф (который ничего не делает). 4 кристалла = 4 баффа на Хагаре.
   Как только все [кристаллы](https://www.wowhead.com/ru/npc=56136) будут разрушены,
   все [привязи](https://www.wowhead.com/cata/ru/spell=105482) спадут и Хагара
@@ -442,11 +445,288 @@ TODO
     - _Я честно не знаю, будет ли это так на ОФЕ, но на видосах с оригинальной каты это я видел постоянно. Я не заметил
       подобного на ПТРах._
     - _Но на ПТРе было такое: при диспеле [снежинки](https://www.wowhead.com/cata/ru/spell=109325) игрок получает урон (
-      25% своего ХП). По идее только он должен получать урон, но иногда урон получали рядом стоящие игроки. Мб это ошибка
+      25% своего ХП). По идее только он должен получать урон, но иногда урон получали рядом стоящие игроки. Мб это
+      ошибка
       при взаимодействии с [лужой](https://www.wowhead.com/cata/ru/spell=109337), в общем хз._
 
 :::
 
 ### Переходка №2: ГРОЗА
 
+Подробно разберём данную переходку, что за механики тут происходят и что нужно делать. Но прежде нужно установить нашу
+главную задачу:
+
+- **Главная задача на <span className="dmg-nature">ГРОЗЕ</span>: зарядить молниями
+  4 [хрустальный громоотвода](https://www.wowhead.com/cata/ru/npc=56165), которые заспавнятся по краям арены.**
+
+<div className="text--center">
+
+#### [Гроза](https://www.wowhead.com/cata/ru/spell=105465), [столп молнии](https://www.wowhead.com/cata/ru/spell=109563) и [элементаль молнии](https://www.wowhead.com/cata/ru/npc=56700)
+
+</div>
+
+Начинаем переходку. Хагар телепортируется в центр арены, на краях спавнится
+4 [хрустальный громоотвода](https://www.wowhead.com/cata/ru/npc=56165). По всему рейду начинает фигачить молнии с небес:
+
+- [Гроза](https://www.wowhead.com/cata/ru/spell=105465) **(механика энкаунтера | дамажащая аура)**: на протяжении всей
+  переходки рейд постоянно получает урон, который увеличивается со временем.
+    - Детально: каждый игрок раз в 2 сек. получает 17 500 <span className="dmg-nature">природного</span> урона и
+      получает 1 стак дебаффа. Каждый стак увеличивает получаемый <span className="dmg-nature">природный</span> урон на
+      5%. Стакается неограничено.
+
+:::caution
+
+[Гроза](https://www.wowhead.com/cata/ru/spell=105465) бьёт по рейду постоянно, не прекращаясь. Постоянно настакивается
+дебафф на +% к входящему <span className="dmg-nature">природному</span> урону. Либо рейд проходит
+переходку быстро, либо умирает от возросшего урона.
+
+:::
+
+<div className="text--center">
+
+![arena2](https://www.wowhcb.ru/adepts/ds/Hagara/Naturephase.gif)
+</div>
+
+Помимо [грозы](https://www.wowhead.com/cata/ru/spell=105465), рейд может получить урон
+от [столпов молнии](https://www.wowhead.com/cata/ru/spell=109563) (хотя из него можно убежать):
+
+- [Столп молнии](https://www.wowhead.com/cata/ru/spell=109563) **(механика энкаунтера)**: под случайным человеком
+  появляется светящийся круг. Спустя пару секунд в это место бьёт столп светлой молнии, который
+  наносит 35 000 <span className="dmg-nature">природного</span> урона в радиусе 5 ярдов.
+
+<div className="text--center">
+
+![elem](/img/ds/Hagara/Groza3.gif)
+
+</div>
+
+<div className="imgright">
+
+![elen](https://wow.zamimg.com/modelviewer/cata/webthumbs/npc/244/34548.webp)
+
+</div>
+
+Также в начале переходки появляется адд: [укрощённый элементаль молнии](https://www.wowhead.com/cata/ru/npc=56700):
+
+- Имеет **3 874 500 здоровья.**
+- Обычный адд, можно таунтить, имеет агролист (танку нужно его опдхватить).
+- Не имеет вообще никаких способностей. С руки бьёт на 30 000 по танку (урон с тычек <span className="dmg-phis">
+  физический</span>).
+- [Элементаль](https://www.wowhead.com/cata/ru/npc=56700) всегда появляется в единственном экземпляре, в одном и том же
+  месте на арене
+  (на севере, если судить по карте).
+- **Имеет только одну особенность: [укрощённый элементаль молнии](https://www.wowhead.com/cata/ru/npc=56700) при смерти
+  заряжает ближайший к нему [хрустальный громоотвод](https://www.wowhead.com/cata/ru/npc=56165).**
+
+:::info
+
+Рейд может убивать [элементаля](https://www.wowhead.com/cata/ru/npc=56700) хоть где, всё равно механика заставит
+ближайший к нему [громоотвод](https://www.wowhead.com/cata/ru/npc=56165) зарядиться.
+
+:::
+
+<div className="text--center">
+<b><i>Появление [элементаля](https://www.wowhead.com/cata/ru/npc=56700)</i></b>
+
+![elem](/img/ds/Hagara/Groza1.gif)
+
+</div>
+
+<div className="text--center">
+
+#### Механика [хрустальных громоотводов](https://www.wowhead.com/cata/ru/npc=56165)
+
+</div>
+
+[Громоотводы](https://www.wowhead.com/cata/ru/npc=56165) это просто "строения", они всегда появляются в определённых
+местах. Они питают Хагару:
+
+- [Кристаллическая привязь](https://www.wowhead.com/cata/ru/spell=105482) **(механика энкаунтера)**:
+  [громоотводы](https://www.wowhead.com/cata/ru/npc=56165) соединяются красной нитью с Хагарой (просто
+  декоративный эффект).
+
+<div className="text--center">
+<b><i>[Громоотводы](https://www.wowhead.com/cata/ru/npc=56165) (3 из 4-х, четвёртый за экраном не влез в кадр)</i></b>
+
+![kondactors](/img/ds/Hagara/crystal_conductors.jpg)
+
+<b><i>Схема расположения [громоотводов](https://www.wowhead.com/cata/ru/npc=56165), места
+появления [элементаля](https://www.wowhead.com/cata/ru/npc=56700) фактическая <span className="glowing">граница
+арены</span></i></b>
+
+![shema2](/img/ds/Hagara/Groza2.png)
+
+</div>
+
+Если убить [элементаля](https://www.wowhead.com/cata/ru/npc=56700), то самый
+близкий [громоотвод](https://www.wowhead.com/cata/ru/npc=56165) станет перегруженным. Теперь,
+перегруженный [громоотвод](https://www.wowhead.com/cata/ru/npc=56165) становится источником молний, которая может
+перекидываться на игроков по цепи.
+
+- [Проводник молний](https://www.wowhead.com/cata/ru/spell=105369) **(механика энкаунтера)**:
+  перегруженный [громоотвод](https://www.wowhead.com/cata/ru/npc=56165) каждую 1 сек. может ударить по рядомстоящему
+  игроку цепной молнией (10 ярдов), при этом нанося ему 25 383 <span className="dmg-nature">природного</span> урона.
+  Если в радиусе 10 ярдов рядом с этим игроком стоял ещё один, то [молния](https://www.wowhead.com/cata/ru/spell=105369)
+  перекинется и на него. И так далее, и так далее.
+    - Если рядом с человеком, до которого дошла [молния](https://www.wowhead.com/cata/ru/spell=105369),
+      находился [громоотвод](https://www.wowhead.com/cata/ru/npc=56165), то он становится перегруженным.
+
+<div className="text--center">
+<b><i>После убийства [элементаля](https://www.wowhead.com/cata/ru/npc=56700) перегружается [громоотвод](https://www.wowhead.com/cata/ru/npc=56165). Его не видно, но можно понять что он там (есть красная ниточка [кристаллической привязи](https://www.wowhead.com/cata/ru/spell=105482)). После перезагрузки [привязь](https://www.wowhead.com/cata/ru/spell=105482) исчезает, а [громоотвод](https://www.wowhead.com/cata/ru/npc=56165) начинает [проводить ток](https://www.wowhead.com/cata/ru/spell=105369) по игрокам.</i></b>
+
+![shema2](/img/ds/Hagara/Groza4.gif)
+
+<b><i>Рейду нужно [провести ток](https://www.wowhead.com/cata/ru/spell=105369) своими телами до другого,
+незаряженного [громоотвода](https://www.wowhead.com/cata/ru/npc=56165)</i></b>
+
+![shema2](/img/ds/Hagara/Groza5.png)
+
+![shema2](/img/ds/Hagara/Groza6.gif)
+
+</div>
+
+:::caution
+
+- Самый первый [громоотвод](https://www.wowhead.com/cata/ru/npc=56165) перегружается из-за того, что рейд
+  убивает [элементаля](https://www.wowhead.com/cata/ru/npc=56700).
+- Остальные 3 [громоотвода](https://www.wowhead.com/cata/ru/npc=56165) нужно перегружать своими силами, выстроив цепочки
+  из своих персонажей, чтобы по ним [прошли молнии](https://www.wowhead.com/cata/ru/spell=105369).
+
+:::
+
+:::danger
+
+Напоминаю, что пока рейд пытается выстроить цепочки для [молний](https://www.wowhead.com/cata/ru/spell=105369) от
+одного [громоотвода](https://www.wowhead.com/cata/ru/npc=56165) до другого, по ним постоянно
+фигачит [гроза](https://www.wowhead.com/cata/ru/spell=105465), которая ещё стакает дебафф. на +% к
+входящему <span className="dmg-nature">природному</span> урону. Либо рейд быстро перегружает все
+4 [громоотвода](https://www.wowhead.com/cata/ru/npc=56165), либо умирает от громадного <span className="dmg-nature">
+природного</span> урона.
+
+:::
+
+### Переходки: некоторые методы прохождения
+
+Приведу в пример некоторые методы прохождения переходок. Для **<span className="dmg-ice">ледяной бури</span>** у меня
+есть два варианта ("классический, но медленнее" и "опасный, но быстрее"). Для **<span className="dmg-nature">
+грозы</span>** предложу только один, т.к. другие стратегии просто не оптимальны по скорости.
+
+<Tabs>
+<TabItem value="frost" label="ЛЕДЯНАЯ БУРЯ" attributes={{className: styles.frost}}>
+
+Классическая, простая, но медленная стратегия прохождения **<span className="dmg-ice">ледяной бури</span>**
+подразумевает банальное движение по кругу. Рейд постоянно в движении, кастерам особо не расскастоваться, переходка
+проходит краенй медленно.
+
+- Доджим падающие [сосульки](https://www.wowhead.com/cata/ru/spell=69426).
+- [Снежинки](https://www.wowhead.com/cata/ru/spell=109325) вносим
+  под [купол](https://www.wowhead.com/cata/ru/spell=110317) и только тогда диспелим.
+
+<div className="text--center">
+
+![frostclassic](/img/ds/Hagara/Frostclassic.png)
+
+</div>
+
+Второй вариант очень манозатратный по хилу и сейвам, но зато [кристаллы](https://www.wowhead.com/ru/npc=56136) убиваются
+быстрее. МДД с танком также двигаются по кругу, но все РДД и все хилы нпходятся в центре арены рядом с Хагарой, откуда
+кастеры смогут доставать до всех [кристаллов](https://www.wowhead.com/ru/npc=56136) при этом они могут стоять на месте.
+Да, рейд будет получать **огромный** <span className="dmg-ice">ледяной</span> урон от того что под куполом рейд
+постоянно [задыхается](https://www.wowhead.com/cata/ru/spell=110317).
+
+<div className="text--center">
+
+![frostclassic](/img/ds/Hagara/Frostfast.png)
+
+</div>
+
+</TabItem>
+<TabItem value="groza" label="ГРОЗА" attributes={{className: styles.groza}}>
+
+Чтобы как можно быстрее пройти **<span className="dmg-nature">
+грозовую</span>** переходку, нужно очень быстро перегрузить 4 [громоотвода](https://www.wowhead.com/cata/ru/npc=56165).
+Для этого предлагается сделать следующее:
+
+- Разделить рейд на 4 группы по 4-5 человек.
+- Назначить людей в каждой группе так, чтобы она соединяла один
+  из [громоотводов](https://www.wowhead.com/cata/ru/npc=56165) и
+  Хагару.
+
+<div className="text--center">
+
+| <b><i>По узорам арены легче построиться</i></b> |             Итоговая формация             |
+|:-----------------------------------------------:|:-----------------------------------------:|
+|    ![shema2](/img/ds/Hagara/Plankapkan1.png)    | ![shema2](/img/ds/Hagara/Plankapkan2.png) |
+
+</div>
+
+:::tip
+
+- Т.к. [элементаль](https://www.wowhead.com/cata/ru/npc=56700) появляется сверху, то разумнее оставить МДД на "верхние"
+  цепочки, а РДД на "нижние" цепочки.
+- Оставшихся людей можно назначить "запасными" на каждую цепочку, чтобы стояли недалеко.
+
+:::
+
+<div className="text--center">
+
+#### Начинаем переходку!
+
+</div>
+
+Появляется [элементаль](https://www.wowhead.com/cata/ru/npc=56700), его хватает танк и движет ближе к центру. Игроки
+заранее пусть находятся чуть ближе к совим местам. МДД и РДД должны как можно быстрее
+убить [элементаля](https://www.wowhead.com/cata/ru/npc=56700).
+
+<div className="text--center">
+
+![shema2](/img/ds/Hagara/Plankapkan3.png)
+
+<b><i>Допустим, [элементаль](https://www.wowhead.com/cata/ru/npc=56700) перегрузил
+левый-верхний [громоотвод](https://www.wowhead.com/cata/ru/npc=56165)</i></b>
+
+![shema2](/img/ds/Hagara/Plankapkan4.png)
+
+<b><i>[Громоотвод](https://www.wowhead.com/cata/ru/npc=56165) стал перегруженным, и сразу же
+пойдёт [молниия](https://www.wowhead.com/cata/ru/spell=105369) по цепочке в сторону центра</i></b>
+
+![shema2](/img/ds/Hagara/Plankapkan5.png)
+
+<b><i>От центра [молниия](https://www.wowhead.com/cata/ru/spell=105369) по цепочке в сторону остальных
+трёх [громоотводов](https://www.wowhead.com/cata/ru/npc=56165)</i></b>
+
+![shema2](/img/ds/Hagara/Plankapkan6.png)
+
+</div>
+
+:::caution
+
+Т.к. будет много <span className="dmg-nature">природного</span> урона (а значит
+никакая [МАшка](https://www.wowhead.com/cata/ru/spell=31821) не спасёт), и все игроки будут находится далеко друг от
+друга ([купола](https://www.wowhead.com/cata/ru/spell=51052) всех не перекроют), то приготовьте личные сейвы
+(или [камни здоровья](https://www.wowhead.com/cata/ru/item=5512)). Но если все стоят правильно, то перегрузка всех
+4-х [громоотводов](https://www.wowhead.com/cata/ru/npc=56165) займёт около 5 секунд с момента
+убийства [элементаля](https://www.wowhead.com/cata/ru/npc=56700)! Крайне эффективная (и эффектная) тактика.
+
+:::
+
+</TabItem>
+</Tabs>
+
 ## Патчи
+
+- **4.3.0 (29 ноября 2011)**: энкаунтер добавлен в игру.
+- **Хотфикс (2 декабря 2011)**: [ледяные волны](https://www.wowhead.com/cata/ru/spell=105314) двигаются на 15% медленней
+  в ЛФР сложности рейда.
+- **Хотфикс (20 декабря 2011)**:
+    - [Дымовая шашка](https://www.wowhead.com/cata/ru/spell=76577) больше не позволяет
+      избежать [ледяные гробницы](https://www.wowhead.com/cata/ru/spell=104451).
+    - Можные сейвы (
+      напрмиер [бабл](https://www.wowhead.com/cata/ru/spell=642), [ледяная глыба](https://www.wowhead.com/cata/ru/spell=45438))
+      теперь могут игнорировать урон под [водяной капсулой](https://www.wowhead.com/cata/ru/spell=110317) на
+      **<span className="dmg-ice">ледяной буре</span>**, но дебафф не будет спадать.
+    - [Ледяные волны](https://www.wowhead.com/cata/ru/spell=105314) не будут появляться, пока Хагара полностью не
+      прочтёт заклинание [водяная капсула](https://www.wowhead.com/cata/ru/spell=110317).
+- **Хотфикс (22 декабря 2011)**: шаманы теперь не могут игнорировать урон
+  от [водяная капсула](https://www.wowhead.com/cata/ru/spell=110317) под
+  баффом [благосклонность предков](https://www.wowhead.com/cata/ru/spell=79206).
