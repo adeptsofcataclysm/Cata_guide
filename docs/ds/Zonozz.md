@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Полководец Зон'озз
-description: Пара вводных от аффтара
+description: Разбор механик на Зон'оззе
 ---
 
 import Tabs from '@theme/Tabs';
@@ -134,7 +134,14 @@ import styles from './Zonozz-styles.modules.css';
 
 :::danger
 
+<div className="text--center">
+
+<span className="red">
+
 **После 6 минут боя Зон'озз впадает в [берсерк](https://www.wowhead.com/cata/ru/spell=61714)**
+</span>
+
+</div>
 
 :::
 

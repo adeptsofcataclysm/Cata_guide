@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Йор'садж Неспящий
-description: Пара вводных от аффтара
+description: Разбор механик на Йор'садже
 ---
 
 import Tabs from '@theme/Tabs';
@@ -93,12 +93,18 @@ import styles from './Yorsahj-styles.modules.css';
 
 ### Энрейдж
 
+:::danger
+
 <div className="text--center">
 
-<b><span className="red">После 10 минут боя Йор'садж впадает
-в [берсерк](https://www.wowhead.com/cata/ru/spell=61714)</span></b>
+<span className="red">
+
+**После 10 минут боя Йор'садж впадает в [берсерк](https://www.wowhead.com/cata/ru/spell=61714)**
+</span>
 
 </div>
+
+:::
 
 ### Единственная способность босса
 

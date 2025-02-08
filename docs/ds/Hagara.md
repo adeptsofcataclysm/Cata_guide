@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Хагара Владычица Штормов
-description: Пара вводных от аффтара
+description: Разбор механик на Хагаре
 ---
 
 import Tabs from '@theme/Tabs';
@@ -50,8 +50,14 @@ import styles from './Hagara-styles.modules.css';
 
 :::danger
 
-<span className="red">**После 8 минут боя Хагара впадает в [берсерк](https://www.wowhead.com/cata/ru/spell=61714)
-**</span>
+<div className="text--center">
+
+<span className="red">
+
+**После 8 минут боя Хагара впадает в [берсерк](https://www.wowhead.com/cata/ru/spell=61714)**
+</span>
+
+</div>
 
 :::
 
