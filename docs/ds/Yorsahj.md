@@ -440,6 +440,7 @@ Wowhead: [ссылка](https://www.wowhead.com/cata/ru/npc=55312/%D0%B9%D0%BE%D
     - [Возложение рук](https://www.wowhead.com/cata/ru/spell=633).
     - [Торжество](https://www.wowhead.com/cata/ru/spell=85673).
     - Хил, полученный через [частицу света](https://www.wowhead.com/cata/ru/spell=53563).
+      - **Есть фишка: питомцы хантов НЕ получают стаки [глубокой порчи](https://www.wowhead.com/cata/ru/spell=105173). Поэтому Хпалы могут хилить, например, питомцев хантов тем самым хиля танка через [частицу света](https://www.wowhead.com/cata/ru/spell=53563).**
     - Хил, полученный от духа при прожимке [защиты древних королей](https://www.wowhead.com/cata/ru/spell=86150).
     - [Молитва восстановления](https://www.wowhead.com/cata/ru/spell=33076).
     - [Молитва отчаяния](https://www.wowhead.com/cata/ru/spell=19236).
