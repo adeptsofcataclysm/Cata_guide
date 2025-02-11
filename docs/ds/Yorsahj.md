@@ -30,6 +30,14 @@ import styles from './Yorsahj-styles.modules.css';
 </b>
 </div>
 
+<div className="text--center">
+
+***❌ <span className="red">ВНИМАНИЕ</span> ❌***
+
+***<span className="red">Информация основана на ГЕРОИЧЕСКОМ уровне сложности</span>***
+
+</div>
+
 ## Арена энкаунтера
 
 Представляет собой утробу Шу,ма (древний бог или типа того), огромную полость. По краям арены расположены характерные

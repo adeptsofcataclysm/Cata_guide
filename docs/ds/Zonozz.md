@@ -27,6 +27,14 @@ import styles from './Zonozz-styles.modules.css';
 
 </div>
 
+<div className="text--center">
+
+***❌ <span className="red">ВНИМАНИЕ</span> ❌***
+
+***<span className="red">Информация основана на ГЕРОИЧЕСКОМ уровне сложности</span>***
+
+</div>
+
 ## Арена энкаунтера
 
 Представляет собой утробу Го'рата, слуги Древних Богов.

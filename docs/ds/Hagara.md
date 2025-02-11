@@ -25,6 +25,14 @@ import styles from './Hagara-styles.modules.css';
 
 </div>
 
+<div className="text--center">
+
+***❌ <span className="red">ВНИМАНИЕ</span> ❌***
+
+***<span className="red">Информация основана на ГЕРОИЧЕСКОМ уровне сложности</span>***
+
+</div>
+
 ## Арена энкаунтера
 
 Представляет собой арену Малигоса. Предельно симметричная, но вполне себе обычная круглая платформа. Она довольно
