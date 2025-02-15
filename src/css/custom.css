@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
@@ -212,3 +213,27 @@ table {
     margin: 0 auto;
 }
 
+.par {
+    text-align:right;
+    font-size:90%;
+    color:#fdeca6;
+    font-style: italic;
+    font-size:100%;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    color:#88001b;
+}
+
+.DW_lore_text {
+    color:#88001b;
+    font-style: italic;
+    font-size:120%;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    border: 3mm ridge rgba(245, 187, 39, 1);
+    writing-mode: horizontal-tb;
+    padding-left:1em;
+    padding-right:1em;
+    border-radius: 30px;
+    background-color: rgba(253,236,166,0.7);
+}
