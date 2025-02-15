@@ -237,3 +237,17 @@ table {
     border-radius: 30px;
     background-color: rgba(253,236,166,0.7);
 }
+
+.DW_lore_text2 {
+    color:#88001b;
+    font-style: italic;
+    font-size:150%;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    border: 3mm ridge rgba(245, 187, 39, 1);
+    writing-mode: horizontal-tb;
+    padding-left:1em;
+    padding-right:1em;
+    border-radius: 30px;
+    background-color: rgba(253,236,166,0.7);
+}
