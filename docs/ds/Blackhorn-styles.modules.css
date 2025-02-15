@@ -1,0 +1,13 @@
+.voevoda{
+    color: brown;
+}
+.voevoda[aria-selected='true'] {
+    border-bottom-color: brown;
+}
+
+.gariona{
+    color: #b83dba;
+}
+.gariona[aria-selected='true'] {
+    border-bottom-color: #b83dba;
+}
