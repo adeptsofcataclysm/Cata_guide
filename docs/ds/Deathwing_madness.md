@@ -22,3 +22,9 @@ import TabItem from '@theme/TabItem';
 <div className="par">- Смертокрыл, Разрушитель</div>
 
 </div>
+
+## Арена энкаунтера
+
+## Немного про бой
+
+### Механики энкаунтера
