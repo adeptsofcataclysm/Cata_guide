@@ -1,0 +1,20 @@
+.shuplo{
+    color: #ff4105;
+}
+.shuplo[aria-selected='true'] {
+    border-bottom-color: #ff4105;
+}
+
+.amalgama{
+    color: #994444;
+}
+.amalgama[aria-selected='true'] {
+    border-bottom-color: #994444;
+}
+
+.blood{
+    color: #ffb727;
+}
+.blood[aria-selected='true'] {
+    border-bottom-color: #ffb727;
+}
