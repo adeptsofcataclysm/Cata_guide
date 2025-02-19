@@ -118,7 +118,7 @@ import styles from './DW_spine-styles.modules.css';
 
 <div className="text--center">
 
-![Cgbyf](/img/ds/DW_spine/Step1.png)
+![Cgbyf](/img/ds/DW_spine/step1.png)
 
 </div>
 
@@ -126,42 +126,42 @@ import styles from './DW_spine-styles.modules.css';
 <TabItem value="2et" label="Этап 2">
 <div className="text--center">
 
-![Cgbyf](/img/ds/DW_spine/Step2.png)
+![Cgbyf](/img/ds/DW_spine/step2.png)
 
 </div>
 </TabItem>
 <TabItem value="3et" label="Этап 3">
 <div className="text--center">
 
-![Cgbyf](/img/ds/DW_spine/Step3.png)
+![Cgbyf](/img/ds/DW_spine/step3.png)
 
 </div>
 </TabItem>
 <TabItem value="4et" label="Этап 4">
 <div className="text--center">
 
-![Cgbyf](/img/ds/DW_spine/Step4.png)
+![Cgbyf](/img/ds/DW_spine/step4.png)
 
 </div>
 </TabItem>
 <TabItem value="5et" label="Этап 5">
 <div className="text--center">
 
-![Cgbyf](/img/ds/DW_spine/Step5.png)
+![Cgbyf](/img/ds/DW_spine/step5.png)
 
 </div>
 </TabItem>
 <TabItem value="6et" label="Этап 6">
 <div className="text--center">
 
-![Cgbyf](/img/ds/DW_spine/Step6.png)
+![Cgbyf](/img/ds/DW_spine/step6.png)
 
 </div>
 </TabItem>
 <TabItem value="7et" label="Этап 7 (1)">
 <div className="text--center">
 
-![Cgbyf](/img/ds/DW_spine/Step7.png)
+![Cgbyf](/img/ds/DW_spine/step7.png)
 
 </div>
 </TabItem>
